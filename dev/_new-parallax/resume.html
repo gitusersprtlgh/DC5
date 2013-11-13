@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <style>
+body {
+  font: 14px/18px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #EFEFEF;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
+
+h2 {
+  color: #FFF;
+}
+#something {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow: hidden;
+}
+#resume {
+  padding: 15px 7px 15px 12px;
+}
+#skills {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 350px;
+}
+#bottom-half {
+  width: 335px;
+  background-color: #1c1b1b;
+  position: absolute;
+  display: block;
+  height: 87%;
+  padding: 0;
+  margin: 0;
+  left: 0px;
+  top: 125px;
+  overflow: hidden;
+  box-shadow: 1px 1px 6px 1px #000000;
+}
+
+#bottom-half p {font-family: 'Lato' , sans-serif; font-size: 14px; letter-spacing: 1px; text-align: center; font-weight: 100;}
+
+.dials {width: 90%; position: absolute; top: 0; left: 0; padding: .5em .9em;}
+
+#side-buttons {
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
+#doc_btn, #pdf_btn {font-weight: 200; font-family: 'Lato' , sans-serif; font-size: 14px;}
+
+#doc_btn {
+   background-image: -webkit-linear-gradient(top, rgba(52,51,51,1) 0%,rgba(43,43,43,1) 100%);
+   background-image:    -moz-linear-gradient(top, rgba(52,51,51,1) 0%,rgba(43,43,43,1) 100%);
+   background-image:     -ms-linear-gradient(top, rgba(52,51,51,1) 0%,rgba(43,43,43,1) 100%);
+   background-image:      -o-linear-gradient(top, rgba(52,51,51,1) 0%,rgba(43,43,43,1) 100%);
+   background-image:         linear-gradient(top, rgba(52,51,51,1) 0%,rgba(43,43,43,1) 100%);
+   -webkit-box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.3)inset;
+      -moz-box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.3)inset;
+           box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.3)inset;
+   border-top: solid 3px rgba(17,20,22,1);
+   border-right: solid 2px rgba(17,20,22,1);
+   border-bottom: solid 3px rgba(17,20,22,1);
+  border-left: solid 1px rgba(17,20,22,1);
+   width: 76px;
+   height: 36px;
+   display: inline-block;
+   -webkit-transition: all .3s linear;
+      -moz-transition: all .3s linear;
+           transition: all .3s linear;
+   text-align: center;
+   color: rgba(197,197,197,1);
+   text-transform: uppercase;
+   outline-bottom: 1px solid rgba(17,20,22,0.15);
+   float: right;
+}
+#doc_btn:hover {
+   background-image: -webkit-linear-gradient(top, rgba(43,43,43,1) 0%,rgba(52,51,51,1) 100%);
+   background-image:    -moz-linear-gradient(top, rgba(43,43,43,1) 0%,rgba(52,51,51,1) 100%);
+   background-image:     -ms-linear-gradient(top, rgba(43,43,43,1) 0%,rgba(52,51,51,1) 100%);
+   background-image:      -o-linear-gradient(top, rgba(43,43,43,1) 0%,rgba(52,51,51,1) 100%);
+   background-image:         linear-gradient(top, rgba(43,43,43,1) 0%,rgba(52,51,51,1) 100%);
+   color: rgba(230,230,230,1);
+   outline-bottom: 1px rgba(17,20,22,0.15);
+   float: right;
+   
+}
+
+#doc_btn span {color: #c5c5c5; text-decoration: none; display: block; padding-top: 9px; font-size: 12px; letter-spacing: 1px; font-family: Arial, Helvetica, sans-serif;  -webkit-transition: all .3s linear;
+      -moz-transition: all .3s linear;
+           transition: all .3s linear;}
+
+#doc_btn span:hover {color: #60e385; text-decoration: none; display: block; padding-top: 9px; font-size: 12px; letter-spacing: 1px; font-family: Arial, Helvetica, sans-serif;}
+
+#pdf_btn {
+   background-image: -webkit-linear-gradient(top, rgba(52,51,51,1) 0%,rgba(43,43,43,1) 100%);
+   background-image:    -moz-linear-gradient(top, rgba(52,51,51,1) 0%,rgba(43,43,43,1) 100%);
+   background-image:     -ms-linear-gradient(top, rgba(52,51,51,1) 0%,rgba(43,43,43,1) 100%);
+   background-image:      -o-linear-gradient(top, rgba(52,51,51,1) 0%,rgba(43,43,43,1) 100%);
+   background-image:         linear-gradient(top, rgba(52,51,51,1) 0%,rgba(43,43,43,1) 100%);
+   -webkit-box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.3)inset;
+      -moz-box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.3)inset;
+           box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.3)inset;
+    border-top: solid 3px rgba(17,20,22,1);
+   border-left: solid 2px rgba(17,20,22,1);
+   border-bottom: solid 3px rgba(17,20,22,1);
+    
+  
+   width: 86px;
+   height: 36px;
+   display: inline-block;
+   -webkit-transition: all .3s linear;
+      -moz-transition: all .3s linear;
+           transition: all .3s linear;
+   text-align: center;
+   color: rgba(197,197,197,1);
+   outline-bottom: 1px solid rgba(17,20,22,0.15);
+   float: right;
+}
+#pdf_btn:hover {
+   background-image: -webkit-linear-gradient(top, rgba(43,43,43,1) 0%,rgba(52,51,51,1) 100%);
+   background-image:    -moz-linear-gradient(top, rgba(43,43,43,1) 0%,rgba(52,51,51,1) 100%);
+   background-image:     -ms-linear-gradient(top, rgba(43,43,43,1) 0%,rgba(52,51,51,1) 100%);
+   background-image:      -o-linear-gradient(top, rgba(43,43,43,1) 0%,rgba(52,51,51,1) 100%);
+   background-image:         linear-gradient(top, rgba(43,43,43,1) 0%,rgba(52,51,51,1) 100%);
+   color: rgba(230,230,230,1);
+   outline-bottom: 1px rgba(17,20,22,0.15);
+   float: right;
+   
+}
+
+#pdf_btn span {color: #c5c5c5; text-decoration: none; display: block; padding-top: 9px; font-size: 12px; font-family: Arial, Helvetica, sans-serif; letter-spacing: 1px;   -webkit-transition: all .3s linear;
+      -moz-transition: all .3s linear;
+           transition: all .3s linear;}
+
+#pdf_btn span:hover {color: #60e385; text-decoration: none; display: block; padding-top: 9px; font-size: 12px; font-family: Arial, Helvetica, sans-serif; letter-spacing: 1px;}
+
+#resume-body { background:url(images/linen-texture-green.jpg) 0 0 repeat;
+    color: #FFF;
+    -webkit-box-shadow: inset 0 0 5px 5px #222;
+    -moz-shadow: inset 0 0 5px 5px #222;
+    box-shadow: inset 0 0 5px 5px #222;
+  }
+
+span.skills {position: absolute; width: 45px; font-size: .9em; text-align: center; font-family: 'Lato'; font-weight: 100;}
+</style>
+    </head>
+<body id="resume-body">
+<div id="something"> 
+    <span class="skills" style="top: 48px; left: 45px;">UX / UI</span>
+    <span class="skills" style="top: 40px; left: 150px;">Front-End</span>
+    <span class="skills" style="top: 40px; left: 250px; ">Motion &amp; 3D</span>
+    <img src="images/skills-bg.png" alt="" width="352px">
+    <img class="dials" src="images/skill-dials.svg">
+      <div id="bottom-half">
+    <div id="side-buttons">
+          <a href="images/dc_cv1.pdf">
+          <div id="doc_btn">
+          <span>CV</span>
+          </div>
+          </a>
+         <a href="images/dc_resume1.pdf"> <div id="pdf_btn"><span>Resume</span></div></a>
+        </div>
+    <p>Choose Format<span style="font-size: 14px; padding-left: 5px;"> >></span></p>
+    <img id="resume" width="310px" src="images/dc_resume1.jpg" alt="Damon Carlstrom Resume"> </div>
+    </div>
+</div>
+</body>
