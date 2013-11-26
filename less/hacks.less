@@ -1,0 +1,102 @@
+#html5Loader{
+	top:0;
+	left:0;
+	background-color:black;
+	background-color:rgba(0,0,0,0.95);
+	position:fixed;
+	z-index:9999;
+}
+#html5Loader .fallback {
+	top:50%;
+	position:absolute;
+	text-align:center;
+	width:100%;
+	color:white;
+	vertical-align: middle;
+	display: block;
+	font-style: normal;
+}
+div#wrapper > * {
+	width:400px;
+}
+
+.pushmenu-left {
+        position: fixed;
+        width: 360px;
+        height: 100%;
+        top: 0;
+		left:0;
+}
+
+.pushmenu-inner{
+	background: #3c3933;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    width: 360px;
+    height: 100%;
+    top: 0;
+	left:0;
+	z-index:-10;
+	
+}
+
+.pushmenu-right {
+        background: #3c3933;
+        font-family: Arial, Helvetica, sans-serif;
+        position: fixed;
+        width: 360px;
+        height: 100%;
+        top: 0;
+		right:0;
+}
+
+.pushmenu-push-other {
+	overflow-x: hidden;
+        position: relative; 
+}
+ 
+ 
+.pushmenu-push.toright > div  {
+        transform: translate3d(360px, 0, 0);
+  		-webkit-transform: translate3d(360px, 0, 0);
+}
+
+
+
+
+.pushmenu-push.toleft > div {
+        transform: translate3d(-360px, 0, 0);
+  		-webkit-transform: translate3d(-360px, 0, 0);
+}
+
+
+
+
+.pushmenu-push-fixed {
+		position:fixed;
+		z-index:9000;
+}
+
+
+.pushmenu-push-down {
+    margin-top:0px;
+}
+
+.pushmenu-push-up {
+    margin-top:-48px;
+}
+
+.pushmenu-push > div  {
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        transition: all 0.5s ease;  
+}
+
+
+.toolbar.toolbar-extended{
+	position: fixed;
+	z-index:999999999;
+}
+
+
+

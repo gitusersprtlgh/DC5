@@ -1,0 +1,4462 @@
+/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+/* line 11, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+/* line 30, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+/* line 41, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+/* line 51, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+[hidden],
+template {
+  display: none;
+}
+/* line 66, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+/* line 76, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+body {
+  margin: 0;
+}
+/* line 88, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+a {
+  background: transparent;
+}
+/* line 96, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+a:focus {
+  outline: thin dotted;
+}
+/* line 104, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+a:active,
+a:hover {
+  outline: 0;
+}
+/* line 118, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+/* line 127, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+/* line 135, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+b,
+strong {
+  font-weight: bold;
+}
+/* line 144, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+dfn {
+  font-style: italic;
+}
+/* line 152, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+/* line 162, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+mark {
+  background: #ff0;
+  color: #000;
+}
+/* line 171, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+/* line 183, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+pre {
+  white-space: pre-wrap;
+}
+/* line 191, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+/* line 199, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+small {
+  font-size: 80%;
+}
+/* line 207, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+/* line 215, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+sup {
+  top: -0.5em;
+}
+/* line 219, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+sub {
+  bottom: -0.25em;
+}
+/* line 231, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+img {
+  border: 0;
+}
+/* line 239, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+svg:not(:root) {
+  overflow: hidden;
+}
+/* line 251, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+figure {
+  margin: 0;
+}
+/* line 263, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+/* line 274, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+legend {
+  border: 0;
+  padding: 0;
+}
+/* line 285, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+/* line 299, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+button,
+input {
+  line-height: normal;
+}
+/* line 311, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+button,
+select {
+  text-transform: none;
+}
+/* line 324, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+/* line 336, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+/* line 346, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+/* line 358, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+/* line 370, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+/* line 379, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+/* line 390, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+/* line 403, /Users/damoncarlstrom/Sites/DC5/less/normalize.less */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* line 7, /Users/damoncarlstrom/Sites/DC5/less/code.less */
+code,
+kbd,
+pre,
+samp {
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+}
+/* line 15, /Users/damoncarlstrom/Sites/DC5/less/code.less */
+code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  white-space: nowrap;
+  border-radius: 4px;
+}
+/* line 25, /Users/damoncarlstrom/Sites/DC5/less/code.less */
+pre {
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 1.428571429;
+  word-break: break-all;
+  word-wrap: break-word;
+  color: #333333;
+  background-color: #f5f5f5;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+/* line 39, /Users/damoncarlstrom/Sites/DC5/less/code.less */
+pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  white-space: pre-wrap;
+  background-color: transparent;
+  border-radius: 0;
+}
+/* line 50, /Users/damoncarlstrom/Sites/DC5/less/code.less */
+.pre-scrollable {
+  max-height: 340px;
+  overflow-y: scroll;
+}
+/* line 6, /Users/damoncarlstrom/Sites/DC5/less/grid.less */
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* line 20, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.container:before,
+.container:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 25, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.container:after {
+  clear: both;
+}
+/* line 11, /Users/damoncarlstrom/Sites/DC5/less/grid.less */
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+/* line 20, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.row:before,
+.row:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 25, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.row:after {
+  clear: both;
+}
+/* line 724, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* line 746, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11 {
+  float: left;
+}
+/* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-12 {
+  width: 100%;
+}
+/* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-11 {
+  width: 91.66666666666666%;
+}
+/* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-10 {
+  width: 83.33333333333334%;
+}
+/* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-9 {
+  width: 75%;
+}
+/* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-8 {
+  width: 66.66666666666666%;
+}
+/* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-7 {
+  width: 58.333333333333336%;
+}
+/* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-6 {
+  width: 50%;
+}
+/* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-5 {
+  width: 41.66666666666667%;
+}
+/* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-4 {
+  width: 33.33333333333333%;
+}
+/* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-3 {
+  width: 25%;
+}
+/* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-2 {
+  width: 16.666666666666664%;
+}
+/* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-1 {
+  width: 8.333333333333332%;
+}
+/* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-pull-12 {
+  right: 100%;
+}
+/* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-pull-11 {
+  right: 91.66666666666666%;
+}
+/* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-pull-10 {
+  right: 83.33333333333334%;
+}
+/* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-pull-9 {
+  right: 75%;
+}
+/* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-pull-8 {
+  right: 66.66666666666666%;
+}
+/* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-pull-7 {
+  right: 58.333333333333336%;
+}
+/* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-pull-6 {
+  right: 50%;
+}
+/* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-pull-5 {
+  right: 41.66666666666667%;
+}
+/* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-pull-4 {
+  right: 33.33333333333333%;
+}
+/* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-pull-3 {
+  right: 25%;
+}
+/* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-pull-2 {
+  right: 16.666666666666664%;
+}
+/* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-pull-1 {
+  right: 8.333333333333332%;
+}
+/* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-pull-0 {
+  right: 0%;
+}
+/* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-push-12 {
+  left: 100%;
+}
+/* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-push-11 {
+  left: 91.66666666666666%;
+}
+/* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-push-10 {
+  left: 83.33333333333334%;
+}
+/* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-push-9 {
+  left: 75%;
+}
+/* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-push-8 {
+  left: 66.66666666666666%;
+}
+/* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-push-7 {
+  left: 58.333333333333336%;
+}
+/* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-push-6 {
+  left: 50%;
+}
+/* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-push-5 {
+  left: 41.66666666666667%;
+}
+/* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-push-4 {
+  left: 33.33333333333333%;
+}
+/* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-push-3 {
+  left: 25%;
+}
+/* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-push-2 {
+  left: 16.666666666666664%;
+}
+/* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-push-1 {
+  left: 8.333333333333332%;
+}
+/* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-push-0 {
+  left: 0%;
+}
+/* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-offset-12 {
+  margin-left: 100%;
+}
+/* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-offset-11 {
+  margin-left: 91.66666666666666%;
+}
+/* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-offset-10 {
+  margin-left: 83.33333333333334%;
+}
+/* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-offset-9 {
+  margin-left: 75%;
+}
+/* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-offset-8 {
+  margin-left: 66.66666666666666%;
+}
+/* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-offset-7 {
+  margin-left: 58.333333333333336%;
+}
+/* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-offset-6 {
+  margin-left: 50%;
+}
+/* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-offset-5 {
+  margin-left: 41.66666666666667%;
+}
+/* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-offset-4 {
+  margin-left: 33.33333333333333%;
+}
+/* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-offset-3 {
+  margin-left: 25%;
+}
+/* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-offset-2 {
+  margin-left: 16.666666666666664%;
+}
+/* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-offset-1 {
+  margin-left: 8.333333333333332%;
+}
+/* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.col-xs-offset-0 {
+  margin-left: 0%;
+}
+@media (min-width: 768px) {
+  /* line 43, /Users/damoncarlstrom/Sites/DC5/less/grid.less */
+  .container {
+    width: 750px;
+  }
+  /* line 746, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11 {
+    float: left;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-12 {
+    width: 100%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-11 {
+    width: 91.66666666666666%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-10 {
+    width: 83.33333333333334%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-9 {
+    width: 75%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-8 {
+    width: 66.66666666666666%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-7 {
+    width: 58.333333333333336%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-6 {
+    width: 50%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-5 {
+    width: 41.66666666666667%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-4 {
+    width: 33.33333333333333%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-3 {
+    width: 25%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-2 {
+    width: 16.666666666666664%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-1 {
+    width: 8.333333333333332%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-pull-12 {
+    right: 100%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-pull-11 {
+    right: 91.66666666666666%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-pull-10 {
+    right: 83.33333333333334%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-pull-9 {
+    right: 75%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-pull-8 {
+    right: 66.66666666666666%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-pull-7 {
+    right: 58.333333333333336%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-pull-6 {
+    right: 50%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-pull-5 {
+    right: 41.66666666666667%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-pull-4 {
+    right: 33.33333333333333%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-pull-3 {
+    right: 25%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-pull-2 {
+    right: 16.666666666666664%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-pull-1 {
+    right: 8.333333333333332%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-pull-0 {
+    right: 0%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-push-12 {
+    left: 100%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-push-11 {
+    left: 91.66666666666666%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-push-10 {
+    left: 83.33333333333334%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-push-9 {
+    left: 75%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-push-8 {
+    left: 66.66666666666666%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-push-7 {
+    left: 58.333333333333336%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-push-6 {
+    left: 50%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-push-5 {
+    left: 41.66666666666667%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-push-4 {
+    left: 33.33333333333333%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-push-3 {
+    left: 25%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-push-2 {
+    left: 16.666666666666664%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-push-1 {
+    left: 8.333333333333332%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-push-0 {
+    left: 0%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-offset-12 {
+    margin-left: 100%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-offset-11 {
+    margin-left: 91.66666666666666%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-offset-10 {
+    margin-left: 83.33333333333334%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-offset-9 {
+    margin-left: 75%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-offset-8 {
+    margin-left: 66.66666666666666%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-offset-7 {
+    margin-left: 58.333333333333336%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-offset-6 {
+    margin-left: 50%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-offset-5 {
+    margin-left: 41.66666666666667%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-offset-4 {
+    margin-left: 33.33333333333333%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-offset-3 {
+    margin-left: 25%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-offset-2 {
+    margin-left: 16.666666666666664%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-offset-1 {
+    margin-left: 8.333333333333332%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-sm-offset-0 {
+    margin-left: 0%;
+  }
+}
+@media (min-width: 992px) {
+  /* line 63, /Users/damoncarlstrom/Sites/DC5/less/grid.less */
+  .container {
+    width: 970px;
+  }
+  /* line 746, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11 {
+    float: left;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-12 {
+    width: 100%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-11 {
+    width: 91.66666666666666%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-10 {
+    width: 83.33333333333334%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-9 {
+    width: 75%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-8 {
+    width: 66.66666666666666%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-7 {
+    width: 58.333333333333336%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-6 {
+    width: 50%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-5 {
+    width: 41.66666666666667%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-4 {
+    width: 33.33333333333333%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-3 {
+    width: 25%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-2 {
+    width: 16.666666666666664%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-1 {
+    width: 8.333333333333332%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-pull-12 {
+    right: 100%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-pull-11 {
+    right: 91.66666666666666%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-pull-10 {
+    right: 83.33333333333334%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-pull-9 {
+    right: 75%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-pull-8 {
+    right: 66.66666666666666%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-pull-7 {
+    right: 58.333333333333336%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-pull-6 {
+    right: 50%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-pull-5 {
+    right: 41.66666666666667%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-pull-4 {
+    right: 33.33333333333333%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-pull-3 {
+    right: 25%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-pull-2 {
+    right: 16.666666666666664%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-pull-1 {
+    right: 8.333333333333332%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-pull-0 {
+    right: 0%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-push-12 {
+    left: 100%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-push-11 {
+    left: 91.66666666666666%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-push-10 {
+    left: 83.33333333333334%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-push-9 {
+    left: 75%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-push-8 {
+    left: 66.66666666666666%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-push-7 {
+    left: 58.333333333333336%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-push-6 {
+    left: 50%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-push-5 {
+    left: 41.66666666666667%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-push-4 {
+    left: 33.33333333333333%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-push-3 {
+    left: 25%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-push-2 {
+    left: 16.666666666666664%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-push-1 {
+    left: 8.333333333333332%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-push-0 {
+    left: 0%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-offset-12 {
+    margin-left: 100%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-offset-11 {
+    margin-left: 91.66666666666666%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-offset-10 {
+    margin-left: 83.33333333333334%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-offset-9 {
+    margin-left: 75%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-offset-8 {
+    margin-left: 66.66666666666666%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-offset-7 {
+    margin-left: 58.333333333333336%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-offset-6 {
+    margin-left: 50%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-offset-5 {
+    margin-left: 41.66666666666667%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-offset-4 {
+    margin-left: 33.33333333333333%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-offset-3 {
+    margin-left: 25%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-offset-2 {
+    margin-left: 16.666666666666664%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-offset-1 {
+    margin-left: 8.333333333333332%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-md-offset-0 {
+    margin-left: 0%;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 83, /Users/damoncarlstrom/Sites/DC5/less/grid.less */
+  .container {
+    width: 1170px;
+  }
+  /* line 746, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11 {
+    float: left;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-12 {
+    width: 100%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-11 {
+    width: 91.66666666666666%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-10 {
+    width: 83.33333333333334%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-9 {
+    width: 75%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-8 {
+    width: 66.66666666666666%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-7 {
+    width: 58.333333333333336%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-6 {
+    width: 50%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-5 {
+    width: 41.66666666666667%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-4 {
+    width: 33.33333333333333%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-3 {
+    width: 25%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-2 {
+    width: 16.666666666666664%;
+  }
+  /* line 754, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-1 {
+    width: 8.333333333333332%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-pull-12 {
+    right: 100%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-pull-11 {
+    right: 91.66666666666666%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-pull-10 {
+    right: 83.33333333333334%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-pull-9 {
+    right: 75%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-pull-8 {
+    right: 66.66666666666666%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-pull-7 {
+    right: 58.333333333333336%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-pull-6 {
+    right: 50%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-pull-5 {
+    right: 41.66666666666667%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-pull-4 {
+    right: 33.33333333333333%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-pull-3 {
+    right: 25%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-pull-2 {
+    right: 16.666666666666664%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-pull-1 {
+    right: 8.333333333333332%;
+  }
+  /* line 764, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-pull-0 {
+    right: 0%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-push-12 {
+    left: 100%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-push-11 {
+    left: 91.66666666666666%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-push-10 {
+    left: 83.33333333333334%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-push-9 {
+    left: 75%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-push-8 {
+    left: 66.66666666666666%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-push-7 {
+    left: 58.333333333333336%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-push-6 {
+    left: 50%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-push-5 {
+    left: 41.66666666666667%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-push-4 {
+    left: 33.33333333333333%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-push-3 {
+    left: 25%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-push-2 {
+    left: 16.666666666666664%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-push-1 {
+    left: 8.333333333333332%;
+  }
+  /* line 759, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-push-0 {
+    left: 0%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-offset-12 {
+    margin-left: 100%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-offset-11 {
+    margin-left: 91.66666666666666%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-offset-10 {
+    margin-left: 83.33333333333334%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-offset-9 {
+    margin-left: 75%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-offset-8 {
+    margin-left: 66.66666666666666%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-offset-7 {
+    margin-left: 58.333333333333336%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-offset-6 {
+    margin-left: 50%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-offset-5 {
+    margin-left: 41.66666666666667%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-offset-4 {
+    margin-left: 33.33333333333333%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-offset-3 {
+    margin-left: 25%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-offset-2 {
+    margin-left: 16.666666666666664%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-offset-1 {
+    margin-left: 8.333333333333332%;
+  }
+  /* line 769, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+  .col-lg-offset-0 {
+    margin-left: 0%;
+  }
+}
+/* line 10, /Users/damoncarlstrom/Sites/DC5/less/buttons.less */
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+/* line 23, /Users/damoncarlstrom/Sites/DC5/less/buttons.less */
+.btn:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+/* line 27, /Users/damoncarlstrom/Sites/DC5/less/buttons.less */
+.btn:hover,
+.btn:focus {
+  color: #333333;
+  text-decoration: none;
+}
+/* line 33, /Users/damoncarlstrom/Sites/DC5/less/buttons.less */
+.btn:active,
+.btn.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+/* line 40, /Users/damoncarlstrom/Sites/DC5/less/buttons.less */
+.btn.disabled,
+.btn[disabled],
+fieldset[disabled] .btn {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+/* line 55, /Users/damoncarlstrom/Sites/DC5/less/buttons.less */
+.btn-default {
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+/* line 468, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  color: #333333;
+  background-color: #ebebeb;
+  border-color: #adadad;
+}
+/* line 477, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  background-image: none;
+}
+/* line 485, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.btn-default.disabled,
+.btn-default[disabled],
+fieldset[disabled] .btn-default,
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled:active,
+.btn-default[disabled]:active,
+fieldset[disabled] .btn-default:active,
+.btn-default.disabled.active,
+.btn-default[disabled].active,
+fieldset[disabled] .btn-default.active {
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+/* line 58, /Users/damoncarlstrom/Sites/DC5/less/buttons.less */
+.btn-primary {
+  color: #ffffff;
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+/* line 468, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+/* line 477, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+/* line 485, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+/* line 62, /Users/damoncarlstrom/Sites/DC5/less/buttons.less */
+.btn-warning {
+  color: #ffffff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+/* line 468, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:active,
+.btn-warning.active,
+.open .dropdown-toggle.btn-warning {
+  color: #ffffff;
+  background-color: #ed9c28;
+  border-color: #d58512;
+}
+/* line 477, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.btn-warning:active,
+.btn-warning.active,
+.open .dropdown-toggle.btn-warning {
+  background-image: none;
+}
+/* line 485, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.btn-warning.disabled,
+.btn-warning[disabled],
+fieldset[disabled] .btn-warning,
+.btn-warning.disabled:hover,
+.btn-warning[disabled]:hover,
+fieldset[disabled] .btn-warning:hover,
+.btn-warning.disabled:focus,
+.btn-warning[disabled]:focus,
+fieldset[disabled] .btn-warning:focus,
+.btn-warning.disabled:active,
+.btn-warning[disabled]:active,
+fieldset[disabled] .btn-warning:active,
+.btn-warning.disabled.active,
+.btn-warning[disabled].active,
+fieldset[disabled] .btn-warning.active {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+/* line 66, /Users/damoncarlstrom/Sites/DC5/less/buttons.less */
+.btn-danger {
+  color: #ffffff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+/* line 468, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.open .dropdown-toggle.btn-danger {
+  color: #ffffff;
+  background-color: #d2322d;
+  border-color: #ac2925;
+}
+/* line 477, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.btn-danger:active,
+.btn-danger.active,
+.open .dropdown-toggle.btn-danger {
+  background-image: none;
+}
+/* line 485, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.btn-danger.disabled,
+.btn-danger[disabled],
+fieldset[disabled] .btn-danger,
+.btn-danger.disabled:hover,
+.btn-danger[disabled]:hover,
+fieldset[disabled] .btn-danger:hover,
+.btn-danger.disabled:focus,
+.btn-danger[disabled]:focus,
+fieldset[disabled] .btn-danger:focus,
+.btn-danger.disabled:active,
+.btn-danger[disabled]:active,
+fieldset[disabled] .btn-danger:active,
+.btn-danger.disabled.active,
+.btn-danger[disabled].active,
+fieldset[disabled] .btn-danger.active {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+/* line 70, /Users/damoncarlstrom/Sites/DC5/less/buttons.less */
+.btn-success {
+  color: #ffffff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+/* line 468, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+  color: #ffffff;
+  background-color: #47a447;
+  border-color: #398439;
+}
+/* line 477, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+  background-image: none;
+}
+/* line 485, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.btn-success.disabled,
+.btn-success[disabled],
+fieldset[disabled] .btn-success,
+.btn-success.disabled:hover,
+.btn-success[disabled]:hover,
+fieldset[disabled] .btn-success:hover,
+.btn-success.disabled:focus,
+.btn-success[disabled]:focus,
+fieldset[disabled] .btn-success:focus,
+.btn-success.disabled:active,
+.btn-success[disabled]:active,
+fieldset[disabled] .btn-success:active,
+.btn-success.disabled.active,
+.btn-success[disabled].active,
+fieldset[disabled] .btn-success.active {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+/* line 74, /Users/damoncarlstrom/Sites/DC5/less/buttons.less */
+.btn-info {
+  color: #ffffff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+/* line 468, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+  color: #ffffff;
+  background-color: #39b3d7;
+  border-color: #269abc;
+}
+/* line 477, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+  background-image: none;
+}
+/* line 485, /Users/damoncarlstrom/Sites/DC5/less/mixins.less */
+.btn-info.disabled,
+.btn-info[disabled],
+fieldset[disabled] .btn-info,
+.btn-info.disabled:hover,
+.btn-info[disabled]:hover,
+fieldset[disabled] .btn-info:hover,
+.btn-info.disabled:focus,
+.btn-info[disabled]:focus,
+fieldset[disabled] .btn-info:focus,
+.btn-info.disabled:active,
+.btn-info[disabled]:active,
+fieldset[disabled] .btn-info:active,
+.btn-info.disabled.active,
+.btn-info[disabled].active,
+fieldset[disabled] .btn-info.active {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+/* line 83, /Users/damoncarlstrom/Sites/DC5/less/buttons.less */
+.btn-link {
+  color: #428bca;
+  font-weight: normal;
+  cursor: pointer;
+  border-radius: 0;
+}
+/* line 89, /Users/damoncarlstrom/Sites/DC5/less/buttons.less */
+.btn-link,
+.btn-link:active,
+.btn-link[disabled],
+fieldset[disabled] .btn-link {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+/* line 96, /Users/damoncarlstrom/Sites/DC5/less/buttons.less */
+.btn-link,
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active {
+  border-color: transparent;
+}
+/* line 102, /Users/damoncarlstrom/Sites/DC5/less/buttons.less */
+.btn-link:hover,
+.btn-link:focus {
+  color: #2a6496;
+  text-decoration: underline;
+  background-color: transparent;
+}
+/* line 110, /Users/damoncarlstrom/Sites/DC5/less/buttons.less */
+.btn-link[disabled]:hover,
+fieldset[disabled] .btn-link:hover,
+.btn-link[disabled]:focus,
+fieldset[disabled] .btn-link:focus {
+  color: #999999;
+  text-decoration: none;
+}
+/* line 122, /Users/damoncarlstrom/Sites/DC5/less/buttons.less */
+.btn-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+/* line 126, /Users/damoncarlstrom/Sites/DC5/less/buttons.less */
+.btn-sm,
+.btn-xs {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+/* line 131, /Users/damoncarlstrom/Sites/DC5/less/buttons.less */
+.btn-xs {
+  padding: 1px 5px;
+}
+/* line 139, /Users/damoncarlstrom/Sites/DC5/less/buttons.less */
+.btn-block {
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 147, /Users/damoncarlstrom/Sites/DC5/less/buttons.less */
+.btn-block + .btn-block {
+  margin-top: 5px;
+}
+/* line 155, /Users/damoncarlstrom/Sites/DC5/less/buttons.less */
+input[type="submit"].btn-block,
+input[type="reset"].btn-block,
+input[type="button"].btn-block {
+  width: 100%;
+}
+/* line 10, /Users/damoncarlstrom/Sites/DC5/less/component-animations.less */
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+/* line 13, /Users/damoncarlstrom/Sites/DC5/less/component-animations.less */
+.fade.in {
+  opacity: 1;
+}
+/* line 18, /Users/damoncarlstrom/Sites/DC5/less/component-animations.less */
+.collapse {
+  display: none;
+}
+/* line 20, /Users/damoncarlstrom/Sites/DC5/less/component-animations.less */
+.collapse.in {
+  display: block;
+}
+/* line 24, /Users/damoncarlstrom/Sites/DC5/less/component-animations.less */
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 0.35s ease;
+  transition: height 0.35s ease;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+/* line 21, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* line 32, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon:empty {
+  width: 1em;
+}
+/* line 38, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-asterisk:before {
+  content: "\2a";
+}
+/* line 39, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-plus:before {
+  content: "\2b";
+}
+/* line 40, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-euro:before {
+  content: "\20ac";
+}
+/* line 41, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-minus:before {
+  content: "\2212";
+}
+/* line 42, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-cloud:before {
+  content: "\2601";
+}
+/* line 43, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-envelope:before {
+  content: "\2709";
+}
+/* line 44, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-pencil:before {
+  content: "\270f";
+}
+/* line 45, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-glass:before {
+  content: "\e001";
+}
+/* line 46, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-music:before {
+  content: "\e002";
+}
+/* line 47, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-search:before {
+  content: "\e003";
+}
+/* line 48, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-heart:before {
+  content: "\e005";
+}
+/* line 49, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-star:before {
+  content: "\e006";
+}
+/* line 50, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-star-empty:before {
+  content: "\e007";
+}
+/* line 51, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-user:before {
+  content: "\e008";
+}
+/* line 52, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-film:before {
+  content: "\e009";
+}
+/* line 53, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-th-large:before {
+  content: "\e010";
+}
+/* line 54, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-th:before {
+  content: "\e011";
+}
+/* line 55, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-th-list:before {
+  content: "\e012";
+}
+/* line 56, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-ok:before {
+  content: "\e013";
+}
+/* line 57, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-remove:before {
+  content: "\e014";
+}
+/* line 58, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-zoom-in:before {
+  content: "\e015";
+}
+/* line 59, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-zoom-out:before {
+  content: "\e016";
+}
+/* line 60, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-off:before {
+  content: "\e017";
+}
+/* line 61, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-signal:before {
+  content: "\e018";
+}
+/* line 62, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-cog:before {
+  content: "\e019";
+}
+/* line 63, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-trash:before {
+  content: "\e020";
+}
+/* line 64, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-home:before {
+  content: "\e021";
+}
+/* line 65, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-file:before {
+  content: "\e022";
+}
+/* line 66, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-time:before {
+  content: "\e023";
+}
+/* line 67, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-road:before {
+  content: "\e024";
+}
+/* line 68, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-download-alt:before {
+  content: "\e025";
+}
+/* line 69, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-download:before {
+  content: "\e026";
+}
+/* line 70, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-upload:before {
+  content: "\e027";
+}
+/* line 71, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-inbox:before {
+  content: "\e028";
+}
+/* line 72, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-play-circle:before {
+  content: "\e029";
+}
+/* line 73, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-repeat:before {
+  content: "\e030";
+}
+/* line 74, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-refresh:before {
+  content: "\e031";
+}
+/* line 75, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-list-alt:before {
+  content: "\e032";
+}
+/* line 76, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-lock:before {
+  content: "\e033";
+}
+/* line 77, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-flag:before {
+  content: "\e034";
+}
+/* line 78, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-headphones:before {
+  content: "\e035";
+}
+/* line 79, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-volume-off:before {
+  content: "\e036";
+}
+/* line 80, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-volume-down:before {
+  content: "\e037";
+}
+/* line 81, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-volume-up:before {
+  content: "\e038";
+}
+/* line 82, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-qrcode:before {
+  content: "\e039";
+}
+/* line 83, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-barcode:before {
+  content: "\e040";
+}
+/* line 84, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-tag:before {
+  content: "\e041";
+}
+/* line 85, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-tags:before {
+  content: "\e042";
+}
+/* line 86, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-book:before {
+  content: "\e043";
+}
+/* line 87, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-bookmark:before {
+  content: "\e044";
+}
+/* line 88, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-print:before {
+  content: "\e045";
+}
+/* line 89, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-camera:before {
+  content: "\e046";
+}
+/* line 90, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-font:before {
+  content: "\e047";
+}
+/* line 91, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-bold:before {
+  content: "\e048";
+}
+/* line 92, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-italic:before {
+  content: "\e049";
+}
+/* line 93, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-text-height:before {
+  content: "\e050";
+}
+/* line 94, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-text-width:before {
+  content: "\e051";
+}
+/* line 95, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-align-left:before {
+  content: "\e052";
+}
+/* line 96, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-align-center:before {
+  content: "\e053";
+}
+/* line 97, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-align-right:before {
+  content: "\e054";
+}
+/* line 98, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-align-justify:before {
+  content: "\e055";
+}
+/* line 99, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-list:before {
+  content: "\e056";
+}
+/* line 100, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-indent-left:before {
+  content: "\e057";
+}
+/* line 101, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-indent-right:before {
+  content: "\e058";
+}
+/* line 102, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-facetime-video:before {
+  content: "\e059";
+}
+/* line 103, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-picture:before {
+  content: "\e060";
+}
+/* line 104, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-map-marker:before {
+  content: "\e062";
+}
+/* line 105, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-adjust:before {
+  content: "\e063";
+}
+/* line 106, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-tint:before {
+  content: "\e064";
+}
+/* line 107, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-edit:before {
+  content: "\e065";
+}
+/* line 108, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-share:before {
+  content: "\e066";
+}
+/* line 109, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-check:before {
+  content: "\e067";
+}
+/* line 110, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-move:before {
+  content: "\e068";
+}
+/* line 111, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-step-backward:before {
+  content: "\e069";
+}
+/* line 112, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-fast-backward:before {
+  content: "\e070";
+}
+/* line 113, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-backward:before {
+  content: "\e071";
+}
+/* line 114, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-play:before {
+  content: "\e072";
+}
+/* line 115, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-pause:before {
+  content: "\e073";
+}
+/* line 116, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-stop:before {
+  content: "\e074";
+}
+/* line 117, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-forward:before {
+  content: "\e075";
+}
+/* line 118, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-fast-forward:before {
+  content: "\e076";
+}
+/* line 119, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-step-forward:before {
+  content: "\e077";
+}
+/* line 120, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-eject:before {
+  content: "\e078";
+}
+/* line 121, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-chevron-left:before {
+  content: "\e079";
+}
+/* line 122, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-chevron-right:before {
+  content: "\e080";
+}
+/* line 123, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-plus-sign:before {
+  content: "\e081";
+}
+/* line 124, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-minus-sign:before {
+  content: "\e082";
+}
+/* line 125, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-remove-sign:before {
+  content: "\e083";
+}
+/* line 126, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-ok-sign:before {
+  content: "\e084";
+}
+/* line 127, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-question-sign:before {
+  content: "\e085";
+}
+/* line 128, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-info-sign:before {
+  content: "\e086";
+}
+/* line 129, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-screenshot:before {
+  content: "\e087";
+}
+/* line 130, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-remove-circle:before {
+  content: "\e088";
+}
+/* line 131, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-ok-circle:before {
+  content: "\e089";
+}
+/* line 132, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-ban-circle:before {
+  content: "\e090";
+}
+/* line 133, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-arrow-left:before {
+  content: "\e091";
+}
+/* line 134, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-arrow-right:before {
+  content: "\e092";
+}
+/* line 135, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-arrow-up:before {
+  content: "\e093";
+}
+/* line 136, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-arrow-down:before {
+  content: "\e094";
+}
+/* line 137, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-share-alt:before {
+  content: "\e095";
+}
+/* line 138, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-resize-full:before {
+  content: "\e096";
+}
+/* line 139, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-resize-small:before {
+  content: "\e097";
+}
+/* line 140, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-exclamation-sign:before {
+  content: "\e101";
+}
+/* line 141, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-gift:before {
+  content: "\e102";
+}
+/* line 142, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-leaf:before {
+  content: "\e103";
+}
+/* line 143, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-fire:before {
+  content: "\e104";
+}
+/* line 144, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-eye-open:before {
+  content: "\e105";
+}
+/* line 145, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-eye-close:before {
+  content: "\e106";
+}
+/* line 146, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-warning-sign:before {
+  content: "\e107";
+}
+/* line 147, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-plane:before {
+  content: "\e108";
+}
+/* line 148, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-calendar:before {
+  content: "\e109";
+}
+/* line 149, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-random:before {
+  content: "\e110";
+}
+/* line 150, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-comment:before {
+  content: "\e111";
+}
+/* line 151, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-magnet:before {
+  content: "\e112";
+}
+/* line 152, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-chevron-up:before {
+  content: "\e113";
+}
+/* line 153, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-chevron-down:before {
+  content: "\e114";
+}
+/* line 154, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-retweet:before {
+  content: "\e115";
+}
+/* line 155, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-shopping-cart:before {
+  content: "\e116";
+}
+/* line 156, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-folder-close:before {
+  content: "\e117";
+}
+/* line 157, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-folder-open:before {
+  content: "\e118";
+}
+/* line 158, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-resize-vertical:before {
+  content: "\e119";
+}
+/* line 159, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-resize-horizontal:before {
+  content: "\e120";
+}
+/* line 160, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-hdd:before {
+  content: "\e121";
+}
+/* line 161, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-bullhorn:before {
+  content: "\e122";
+}
+/* line 162, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-bell:before {
+  content: "\e123";
+}
+/* line 163, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-certificate:before {
+  content: "\e124";
+}
+/* line 164, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-thumbs-up:before {
+  content: "\e125";
+}
+/* line 165, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-thumbs-down:before {
+  content: "\e126";
+}
+/* line 166, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-hand-right:before {
+  content: "\e127";
+}
+/* line 167, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-hand-left:before {
+  content: "\e128";
+}
+/* line 168, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-hand-up:before {
+  content: "\e129";
+}
+/* line 169, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-hand-down:before {
+  content: "\e130";
+}
+/* line 170, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-circle-arrow-right:before {
+  content: "\e131";
+}
+/* line 171, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-circle-arrow-left:before {
+  content: "\e132";
+}
+/* line 172, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-circle-arrow-up:before {
+  content: "\e133";
+}
+/* line 173, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-circle-arrow-down:before {
+  content: "\e134";
+}
+/* line 174, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-globe:before {
+  content: "\e135";
+}
+/* line 175, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-wrench:before {
+  content: "\e136";
+}
+/* line 176, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-tasks:before {
+  content: "\e137";
+}
+/* line 177, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-filter:before {
+  content: "\e138";
+}
+/* line 178, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-briefcase:before {
+  content: "\e139";
+}
+/* line 179, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-fullscreen:before {
+  content: "\e140";
+}
+/* line 180, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-dashboard:before {
+  content: "\e141";
+}
+/* line 181, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-paperclip:before {
+  content: "\e142";
+}
+/* line 182, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-heart-empty:before {
+  content: "\e143";
+}
+/* line 183, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-link:before {
+  content: "\e144";
+}
+/* line 184, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-phone:before {
+  content: "\e145";
+}
+/* line 185, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-pushpin:before {
+  content: "\e146";
+}
+/* line 186, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-usd:before {
+  content: "\e148";
+}
+/* line 187, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-gbp:before {
+  content: "\e149";
+}
+/* line 188, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-sort:before {
+  content: "\e150";
+}
+/* line 189, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-sort-by-alphabet:before {
+  content: "\e151";
+}
+/* line 190, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-sort-by-alphabet-alt:before {
+  content: "\e152";
+}
+/* line 191, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-sort-by-order:before {
+  content: "\e153";
+}
+/* line 192, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-sort-by-order-alt:before {
+  content: "\e154";
+}
+/* line 193, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-sort-by-attributes:before {
+  content: "\e155";
+}
+/* line 194, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-sort-by-attributes-alt:before {
+  content: "\e156";
+}
+/* line 195, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-unchecked:before {
+  content: "\e157";
+}
+/* line 196, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-expand:before {
+  content: "\e158";
+}
+/* line 197, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-collapse-down:before {
+  content: "\e159";
+}
+/* line 198, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-collapse-up:before {
+  content: "\e160";
+}
+/* line 199, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-log-in:before {
+  content: "\e161";
+}
+/* line 200, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-flash:before {
+  content: "\e162";
+}
+/* line 201, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-log-out:before {
+  content: "\e163";
+}
+/* line 202, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-new-window:before {
+  content: "\e164";
+}
+/* line 203, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-record:before {
+  content: "\e165";
+}
+/* line 204, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-save:before {
+  content: "\e166";
+}
+/* line 205, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-open:before {
+  content: "\e167";
+}
+/* line 206, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-saved:before {
+  content: "\e168";
+}
+/* line 207, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-import:before {
+  content: "\e169";
+}
+/* line 208, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-export:before {
+  content: "\e170";
+}
+/* line 209, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-send:before {
+  content: "\e171";
+}
+/* line 210, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-floppy-disk:before {
+  content: "\e172";
+}
+/* line 211, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-floppy-saved:before {
+  content: "\e173";
+}
+/* line 212, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-floppy-remove:before {
+  content: "\e174";
+}
+/* line 213, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-floppy-save:before {
+  content: "\e175";
+}
+/* line 214, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-floppy-open:before {
+  content: "\e176";
+}
+/* line 215, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-credit-card:before {
+  content: "\e177";
+}
+/* line 216, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-transfer:before {
+  content: "\e178";
+}
+/* line 217, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-cutlery:before {
+  content: "\e179";
+}
+/* line 218, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-header:before {
+  content: "\e180";
+}
+/* line 219, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-compressed:before {
+  content: "\e181";
+}
+/* line 220, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-earphone:before {
+  content: "\e182";
+}
+/* line 221, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-phone-alt:before {
+  content: "\e183";
+}
+/* line 222, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-tower:before {
+  content: "\e184";
+}
+/* line 223, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-stats:before {
+  content: "\e185";
+}
+/* line 224, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-sd-video:before {
+  content: "\e186";
+}
+/* line 225, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-hd-video:before {
+  content: "\e187";
+}
+/* line 226, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-subtitles:before {
+  content: "\e188";
+}
+/* line 227, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-sound-stereo:before {
+  content: "\e189";
+}
+/* line 228, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-sound-dolby:before {
+  content: "\e190";
+}
+/* line 229, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-sound-5-1:before {
+  content: "\e191";
+}
+/* line 230, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-sound-6-1:before {
+  content: "\e192";
+}
+/* line 231, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-sound-7-1:before {
+  content: "\e193";
+}
+/* line 232, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-copyright-mark:before {
+  content: "\e194";
+}
+/* line 233, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-registration-mark:before {
+  content: "\e195";
+}
+/* line 234, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-cloud-download:before {
+  content: "\e197";
+}
+/* line 235, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-cloud-upload:before {
+  content: "\e198";
+}
+/* line 236, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-tree-conifer:before {
+  content: "\e199";
+}
+/* line 237, /Users/damoncarlstrom/Sites/DC5/less/glyphicons.less */
+.glyphicon-tree-deciduous:before {
+  content: "\e200";
+}
+/* line 1, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+body {
+  font: 100%/1.4 'Lato', Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+/* line 7, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.hidden {
+  overflow: hidden;
+}
+/* ~~ Element/tag selectors ~~ */
+/* line 10, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+ul,
+ol,
+dl {
+  /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .current list unless you write a more specific selector. */
+  padding: 0;
+  margin: 0;
+}
+/* line 14, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+  padding-right: 15px;
+  padding-left: 15px;
+  /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+}
+/* line 21, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+a img {
+  /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+  border: none;
+}
+/* line 24, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+a:link {
+  color: #9f9e9e;
+  text-decoration: none;
+}
+/* line 28, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+a:visited {
+  color: #4E5869;
+  text-decoration: underline;
+}
+/* line 32, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+}
+/* ~~ this container surrounds all other divs giving them their percentage-based width ~~ */
+/* line 39, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.toolbar {
+  width: 100%;
+  /*max-width: 1260px;/* a max-width may be desirable to keep this layout from getting too wide on a large monitor. This keeps line length more readable. IE6 does not respect this declaration. */
+  min-width: 768px;
+  /* a min-width may be desirable to keep this layout from getting too narrow. This keeps line length more readable in the side columns. IE6 does not respect this declaration. */
+  margin-top: -48px;
+  z-index: 999;
+  height: 48px;
+  background: #292929;
+  /* Old browsers */
+  background-image: url(../images/diagonal_pattern.png), -moz-linear-gradient(top, #292929 0%, #1b1b1b 100%);
+  /* FF3.6+ */
+  background-image: url(../images/diagonal_pattern.png), -webkit-gradient(linear, left top, left bottom, color-stop(0%, #292929), color-stop(100%, #1b1b1b));
+  /* Chrome,Safari4+ */
+  background-image: url(../images/diagonal_pattern.png), -webkit-linear-gradient(top, #292929 0%, #1b1b1b 100%);
+  /* Chrome10+,Safari5.1+ */
+  background-image: url(../images/diagonal_pattern.png), -o-linear-gradient(top, #292929 0%, #1b1b1b 100%);
+  /* Opera 11.10+ */
+  background-image: url(../images/diagonal_pattern.png), -ms-linear-gradient(top, #292929 0%, #1b1b1b 100%);
+  /* IE10+ */
+  background-image: url(../images/diagonal_pattern.png), linear-gradient(to bottom, #292929 0%, #1b1b1b 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#292929', endColorstr='#1b1b1b', GradientType=0);
+  /* IE6-9 */
+}
+/* line 55, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.current {
+  margin: 0px auto;
+  width: 600px;
+  padding-top: 14px;
+  z-index: 999;
+}
+/* line 61, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.current a:link {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+  /*color: #9f9e9e;*/
+  color: #9f9e9e;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  z-index: 999;
+  font-weight: 300;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  transition: all .3s linear;
+}
+/* line 75, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.current a:visited {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+  color: #9f9e9e;
+  text-decoration: underline;
+  position: relative;
+  z-index: 999;
+}
+/*.current a:hover, .current a:active, .current a:focus {
+	font-family: 'Lato' , sans-serif;
+	letter-spacing: 1px;
+	text-decoration: none;
+	color: #fff;
+	position: relative;
+	z-index: 70;
+}*/
+/* line 93, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.current a:hover {
+  color: #eef4ff;
+  text-shadow: 1px 1px 1px #5A5A5A;
+  text-decoration: none;
+  text-shadow: 0 0 2px #fff, 0 0 4px #0C6, 0 0 5px #0C6, 0 0 6px #0C6;
+  z-index: 999;
+}
+/* line 100, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.current li {
+  margin: auto 0px;
+  font-size: 14px;
+  z-index: 8;
+  position: relative;
+  z-index: 999;
+}
+/* line 107, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.toolbar li.back {
+  background-color: #000;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+  /* For IE8 and earlier */
+  width: 130%;
+  height: 48px;
+  z-index: 0;
+  position: absolute;
+  margin-top: -38px;
+}
+/* line 117, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.menu {
+  display: inline;
+}
+/* line 120, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.menu a {
+  display: inline;
+  position: relative;
+  padding-top: 28px;
+}
+/* line 126, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.active {
+  background: black;
+  padding-top: 13px;
+  padding-bottom: 14px;
+  color: white;
+}
+/* line 133, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.active-text {
+  color: #9f9e9e;
+}
+/*********  Begin Buttons *************/
+/* line 137, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.resume_btn {
+  float: left;
+  height: 45px;
+  margin-right: 40px;
+  /*Used to keep nav (.current) looking center as browser window approaches min-width of 768px  */
+}
+/* line 142, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#resume_btn {
+  left: 2px;
+  top: 7px;
+  position: relative;
+  width: 66px;
+  height: 34px;
+  background: url(../images/resume_sprite.png) no-repeat 0 0;
+  display: block;
+  float: left;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+/* line 155, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#resume_btn:hover,
+#resume_btn:visited {
+  background-position: 0 -34px;
+}
+/* line 158, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#resume_btn:active {
+  background-position: 0 -68px;
+}
+/* line 162, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.contact_btn {
+  float: right;
+  padding-right: 4px;
+  position: relative;
+}
+/* line 167, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#contact_btn {
+  right: 2px;
+  top: 8px;
+  position: relative;
+  width: 39px;
+  height: 32px;
+  background: url(../images/contact_sprite.png) no-repeat 0 0;
+  cursor: pointer;
+  float: right;
+}
+/* line 177, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#contact_btn:hover {
+  background-position: 0 -32px;
+}
+/* line 180, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#contact_btn:active {
+  background-position: 0 -64px;
+}
+/* line 183, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#pdf_btn {
+  right: 2px;
+  top: 8px;
+  position: relative;
+  width: 39px;
+  height: 32px;
+  background: url(../images/contact_sprite.png) no-repeat 0 0;
+  cursor: pointer;
+  float: right;
+}
+/* line 193, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#pdf_btn:hover {
+  background-position: 0 -32px;
+}
+/* line 196, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#pdf:active {
+  background-position: 0 -64px;
+}
+/*************  end Buttons **************/
+/* line 202, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.outer_container {
+  width: 100%;
+  /*max-width: 1260px;/* a max-width may be desirable to keep this layout from getting too wide on a large monitor. This keeps line length more readable. IE6 does not respect this declaration. */
+  min-width: 768px;
+  /* a min-width may be desirable to keep this layout from getting too narrow. This keeps line length more readable in the side columns. IE6 does not respect this declaration. */
+  background: ;
+  margin: 0;
+}
+/* ~~ This is the layout information. ~~ */
+/* line 212, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.content {
+  padding: 0 15px;
+  line-height: 1.6em;
+}
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+/* line 216, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.content ul,
+.content ol {
+  padding: 0 15px 15px 40px;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  color: white;
+  /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+/* line 219, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+p.content,
+.info-box li {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  color: white;
+  letter-spacing: .05em;
+}
+/* line 221, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+ul,
+ol,
+dl {
+  padding: 0 15px 15px 40px;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  color: white;
+  line-height: 1.4em;
+}
+/* line 223, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+li {
+  margin-bottom: 7px;
+}
+/* ~~ miscellaneous float/clear classes ~~ */
+/* line 226, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.fltrt {
+  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+  float: right;
+  margin-left: 8px;
+}
+/* line 230, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.fltlft {
+  /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+  float: left;
+  margin-right: 8px;
+}
+/* line 234, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.clearfloat {
+  /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the overflow:hidden on the .container is removed */
+  clear: both;
+  height: 0;
+  font-size: 1px;
+  line-height: 0px;
+}
+/* line 241, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#pageslide {
+  /* These styles MUST be included. Do not change. */
+  display: none;
+  position: absolute;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  z-index: 999999;
+  /* Specify the width of your pageslide here */
+  width: 360px;
+  /* These styles are optional, and describe how the pageslide will look */
+  background: url(../images/linen-texture-green.jpg) 0 0 repeat;
+  color: #FFF;
+  -webkit-box-shadow: inset 0 0 5px 5px #222;
+  -moz-shadow: inset 0 0 5px 5px #222;
+  box-shadow: inset 0 0 5px 5px #222;
+}
+/* line 262, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#name_slide {
+  position: relative;
+  top: -4px;
+  right: 67px;
+}
+/* line 267, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#name_slide h3 {
+  font-family: 'Lato', sans-serif;
+  height: 20px;
+  padding: 1px 3px 1px 3px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+/* line 278, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#Stage {
+  position: absolute;
+  margin: 0px auto;
+  top: 230px;
+  z-index: 15;
+}
+/* line 284, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#nav_lines {
+  background-image: url(../images/nav_lines.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 10;
+  width: 460px;
+  height: 500px;
+  margin: 0px auto;
+  z-index: 20;
+}
+/* line 296, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#copyright {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 0 5px 5px 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 13px;
+  color: #999;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.85);
+}
+/* line 299, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+p#copyright {
+  padding: 3px 5px;
+}
+/* line 301, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#osmplayer {
+  position: absolute;
+  top: 490px;
+  left: 105px;
+}
+/******************  Begin Home  ****************/
+/* line 307, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.home_container {
+  background-color: #1c1b1b;
+  height: 1000px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  z-index: 800;
+}
+/* line 315, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#home_nav h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  color: #60e385;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin: 0 auto;
+  padding: 50px 0px 0px 63px;
+}
+/* line 324, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#home_nav {
+  margin: 0 auto;
+  width: 460px;
+  height: 500px;
+}
+/* line 329, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+h3.x_nav {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+/* line 335, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+h3.x_nav a:link {
+  color: #fff;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  transition: all .3s linear;
+}
+/* line 341, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+h3.x_nav a:visited {
+  color: #fff;
+}
+/* line 344, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+h3.x_nav a:hover {
+  color: #eef4ff;
+  text-shadow: 1px 1px 1px #5A5A5A;
+  text-decoration: none;
+  text-shadow: 0 0 2px #fff, 0 0 4px #0C6, 0 0 7px #0C6, 0 0 8px #0C6;
+}
+/* line 350, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+h3#nav_resume {
+  position: absolute;
+  top: -13px;
+  left: 24px;
+}
+/* line 355, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+h3#nav_contact {
+  position: absolute;
+  top: -13px;
+  left: 350px;
+  z-index: 20;
+}
+/* line 361, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+h3#nav_about {
+  position: absolute;
+  top: 44px;
+  left: -8px;
+  z-index: 20;
+}
+/* line 367, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+h3#nav_interface {
+  position: absolute;
+  top: 217px;
+  left: -10px;
+  z-index: 20;
+}
+/* line 373, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+h3#nav_animation {
+  position: absolute;
+  top: 275px;
+  left: 23px;
+  z-index: 20;
+}
+/* line 379, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+h3#nav_print {
+  position: absolute;
+  top: 217px;
+  left: 406px;
+  z-index: 20;
+}
+/* line 385, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+h3#nav_concepts {
+  position: absolute;
+  top: 275px;
+  left: 342px;
+  z-index: 20;
+}
+/* line 391, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+h3#nav_art {
+  position: absolute;
+  top: 44px;
+  left: 414px;
+  z-index: 20;
+}
+/* line 398, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#city {
+  width: 100%;
+  display: block;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  bottom: 0;
+  left: 0;
+}
+/* line 400, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#logo {
+  background-image: url(../images/dc_home.jpg);
+  width: 267px;
+  height: 177px;
+  display: block;
+  position: absolute;
+  z-index: 0;
+  top: 165px;
+  left: 460px;
+}
+/******************  End Home  ****************/
+/****************  Info box  **************/
+/* line 404, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.info-box {
+  background-color: #000;
+  width: 350px;
+  height: 100px;
+  opacity: .85;
+  position: absolute;
+  z-index: 650;
+  overflow: hidden;
+}
+/* line 414, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.info-box header {
+  font-family: 'Lato', sans-serif;
+  font-size: 42px;
+  color: #60e385;
+  font-weight: 100;
+  letter-spacing: 1px;
+  padding: 6px 10px 0px 12px;
+  margin: 0;
+}
+/* line 424, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#animation-box header {
+  font-family: 'Lato', sans-serif;
+  font-size: 42px;
+  color: #60e385;
+  font-weight: 100;
+  letter-spacing: 1px;
+  padding: 6px 10px 0px 12px;
+  margin: 0;
+}
+/* line 433, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.large-link {
+  font-family: 'Lato', sans-serif;
+  font-size: 26px;
+  color: #60e385;
+  font-weight: 100;
+  margin: 0;
+  cursor: pointer;
+}
+/* line 441, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.large-link:hover {
+  font-family: 'Lato', sans-serif;
+  font-size: 26px;
+  color: #0ba9d0;
+  font-weight: 100;
+  margin: 0;
+  cursor: pointer;
+}
+/* line 448, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.inner-content {
+  padding: 15px;
+}
+/* line 449, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.button-area {
+  float: right;
+  width: 130px;
+  height: 50px;
+  position: relative;
+  padding: 10px 10px 0 0;
+}
+/* line 450, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.button-area2 {
+  float: left;
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  padding: 10px 0 0 190px;
+}
+/* line 451, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.animation-thumb {
+  position: absolute;
+  float: left;
+  width: 130px;
+  height: 70px;
+  top: 15px;
+  overflow: hidden;
+}
+/* line 452, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.button-area p {
+  float: right;
+  font-size: 12px;
+  color: #ececec;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+  padding: 4px 0 0 0;
+  margin: 0;
+}
+/* line 453, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.button-area2 p {
+  float: right;
+  font-size: 12px;
+  color: #ececec;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+  padding: 4px 0 0 0;
+  margin: 0;
+}
+/*.open-close-btn {background-image:url(../images/open-close.png); position: relative; width: 53px; height: 53px; z-index: 70; float: right; display: block; cursor: pointer;  }
+.open-close-btn:hover {background-position:0 -53px; cursor: pointer;}
+.open-close-btn:active {background-postion:0 -106px; cursor: pointer;}*/
+/* line 458, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.open-close-btn {
+  background: #0eb566;
+  position: relative;
+  width: 34px;
+  height: 34px;
+  z-index: 70;
+  float: right;
+  display: block;
+  cursor: pointer;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  transition: all .3s linear;
+}
+/* line 461, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.open-close-btn:hover {
+  background: #0ba9d0;
+  cursor: pointer;
+}
+/* line 462, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.open-close-btn:active {
+  background: #0ba9d0;
+  cursor: pointer;
+}
+/* line 464, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.open-close-btn h2 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 40px;
+  color: black;
+  text-shadow: 3px 3px 2px #000 inset;
+  margin: -12px 0 0 -9px;
+  display: block;
+}
+/* line 465, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.open-close-btn h3 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  color: black;
+  text-shadow: 3px 3px 2px #000 inset;
+  margin: -16px 0 0 -6px;
+  position: absolute;
+  display: none;
+}
+/* line 466, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.button-area .title-open {
+  display: block;
+  padding-right: 5px;
+  margin-top: -4px;
+}
+/* line 467, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.button-area .title-close {
+  display: none;
+  padding-right: 5px;
+  margin-top: -4px;
+}
+/* line 468, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.button-area2 .title-open {
+  display: block;
+  padding-right: 5px;
+  margin-top: -4px;
+}
+/* line 469, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.button-area2 .title-close {
+  display: none;
+  padding-right: 5px;
+  margin-top: -4px;
+}
+/* line 472, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.invert {
+  -ms-transform: rotate(180deg);
+  /* IE 9 */
+  -moz-transform: rotate(180deg);
+  /* Firefox */
+  -webkit-transform: rotate(180deg);
+  /* Safari and Chrome */
+  -o-transform: rotate(180deg);
+  /* Opera */
+}
+/* line 478, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+p.info-title {
+  color: #ececec;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  margin-top: -2px;
+  letter-spacing: .1em;
+  font-weight: 200;
+}
+/*  _______________________________________
+
+
+/**************************
+
+ Parallax Layers and Sections 
+
+ ***************************/
+/* line 489, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#about-box {
+  background-color: #000;
+  position: absolute;
+  top: 500px;
+  right: 7%;
+  z-index: 650;
+  overflow: hidden;
+}
+/* line 498, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#interface-box {
+  background-color: #000;
+  position: absolute;
+  top: 450px;
+  right: 7%;
+  z-index: 650;
+  overflow: hidden;
+}
+/* line 508, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#animation-box {
+  background-color: #000;
+  position: absolute;
+  bottom: 200px;
+  left: 2%;
+  z-index: 650;
+  overflow: hidden;
+  height: 100px;
+  width: 350px;
+  opacity: .85;
+}
+/* line 523, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#print-box {
+  background-color: #000;
+  position: absolute;
+  bottom: 200px;
+  left: 6%;
+  z-index: 650;
+  overflow: hidden;
+}
+/* line 533, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#concepts-box {
+  background-color: #000;
+  position: absolute;
+  bottom: 200px;
+  right: 7%;
+  z-index: 650;
+  overflow: hidden;
+}
+/* line 543, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#art-box {
+  background-color: #000;
+  position: absolute;
+  bottom: 200px;
+  right: 7%;
+  z-index: 650;
+  overflow: hidden;
+}
+/* line 553, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.skrollable {
+  /*
+	 * First-level skrollables are positioned relative to window
+	 */
+  position: fixed;
+  /*
+	 * Skrollables by default have a z-index of 100 in order to make it easy to position elements in front/back without changing each skrollable
+	 */
+  z-index: 100;
+}
+/* line 565, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.skrollr-mobile .skrollable {
+  /*
+		May cause issues on Android default browser (see #331 on GitHub).
+	*/
+  position: absolute;
+}
+/* line 572, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.skrollable .skrollable {
+  /*
+	 * Second-level skrollables are positioned relative their parent skrollable
+	 */
+  position: absolute;
+}
+/* line 579, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.skrollable .skrollable .skrollable {
+  /*
+	 * Third-level (and below) skrollables are positioned static
+	 */
+  position: static;
+}
+/******************* Begin About  ****************/
+/* line 588, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#about {
+  background-color: #0e0e0e;
+  height: 1250px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+/* line 596, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+.skroll-bg {
+  z-index: 50;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 602, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#target {
+  position: absolute;
+  top: 500px;
+  left: 385px;
+  width: 102px;
+  height: 102px;
+  z-index: 30;
+  display: block;
+  float: left;
+}
+/* line 603, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#vertical-scale {
+  background: url(../images/vertical-scale.png) no-repeat;
+  z-index: 60;
+}
+/* line 604, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#rings {
+  z-index: 55;
+}
+/* line 605, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#inner-ring {
+  position: absolute;
+  background: url(../images/center-ring.png) 20% 50% no-repeat;
+  z-index: 58;
+  width: 249px;
+  height: 250px;
+}
+/* line 606, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#middle-ring {
+  position: absolute;
+  background: url(../images/middle-ring.png) 20% 50% no-repeat;
+  z-index: 57;
+  width: 249px;
+  height: 250px;
+}
+/* line 607, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#outer-ring {
+  position: absolute;
+  background: url(../images/outer-ring.png) 20% 50% no-repeat;
+  z-index: 56;
+  width: 249px;
+  height: 250px;
+}
+/* line 608, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#lab {
+  background: url(../images/lab.jpg) no-repeat;
+  z-index: 50;
+}
+/* line 609, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#my-face {
+  background: url(../images/my-face.jpg) no-repeat;
+  z-index: 49;
+}
+/** rings end at 280 **/
+/*#outer-ring { position: absolute; top: 340px; left: 85px; width: 249px; height: 250px; z-index: 20; display: block; float: left;}
+#middle-ring { position: absolute; top: 340px; left: 85px; width: 249px; height: 250px; z-index: 20; display: block; float: left;}
+#inner-ring { position: absolute; top: 340px; left: 85px; width: 249px; height: 250px; z-index: 20; display: block; float: left;}*/
+/*#vertical-scale{ position: absolute; top: 430px; left: 285px; width: 23px; height: 264px; z-index: 30; display: block; float: left;}*/
+/********************  Begin interface_container *****/
+/* line 621, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#interface {
+  background-color: #000;
+  height: 1250px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  z-index: 200;
+}
+/* line 630, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#space {
+  background: #000000 url(../images/space-bg.png) repeat 0 0 fixed;
+  overflow: hidden;
+  height: 1250px;
+  z-index: 200;
+}
+/* line 637, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#earth {
+  background: url(../images/large-planet.png) no-repeat 0 0 fixed;
+  z-index: 210;
+}
+/* line 638, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#shadow {
+  background: url(../images/planet-shadow.png) no-repeat 0 0 fixed;
+  z-index: 220;
+}
+/* line 639, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#sun-burst {
+  background: url(../images/sun-burst.png) no-repeat 0 0 fixed;
+  z-index: 200;
+}
+/* line 641, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#control-panel {
+  position: relative;
+  width: 996px;
+  height: 348px;
+  margin: 0 auto;
+  z-index: 220;
+}
+/* line 650, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#panel-sliver {
+  position: relative;
+  width: 100%;
+  height: 348px;
+  background: url(../images/control-panel-sliver.png) 50% 100% repeat-x;
+  top: 450px;
+  z-index: 220;
+}
+/****************** Begin animation_container *********/
+/* line 659, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#animation {
+  background-color: #000;
+  height: 1250px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  z-index: 300;
+}
+/* line 668, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#jungle {
+  background: #000000 url(../images/jungle-back.jpg) no-repeat 50% 0;
+  overflow: hidden;
+  height: 1250px;
+}
+/* line 676, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#jungle-bg {
+  background: #000000 url(../images/jungle-back.jpg) 50% 0 no-repeat;
+  overflow: hidden;
+  height: 1250px;
+  width: 100%;
+}
+/* line 684, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#branch {
+  position: absolute;
+  right: -100px;
+  top: 0px;
+  width: 863px;
+  height: 816px;
+  z-index: 40;
+  padding-left: 40px;
+  margin-left: 40px;
+  z-index: 320;
+}
+/*****************  begin print container *********/
+/* line 696, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#print {
+  background: #f8f7d3;
+  height: 1050px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  z-index: 400;
+}
+/* line 705, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#ink {
+  background-color: #f8f7d3;
+  background: url(../images/large-ink.jpg) 50% 0% no-repeat fixed;
+  height: 1050px;
+  width: 100%;
+}
+/* line 712, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#front-ink1 {
+  position: absolute;
+  left: 100px;
+  bottom: 50px;
+  width: 332px;
+  height: 408px;
+  z-index: 400;
+}
+/* line 721, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#front-ink2 {
+  position: absolute;
+  right: 20px;
+  top: 50px;
+  width: 611px;
+  height: 644px;
+  z-index: 40;
+}
+/***** begin #concepts ***/
+/* line 731, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#concepts {
+  background: #f0f0f0;
+  /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #f0f0f0 37%, #b2b2b2 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(37%, #f0f0f0), color-stop(100%, #b2b2b2));
+  /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, #f0f0f0 37%, #b2b2b2 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover, #f0f0f0 37%, #b2b2b2 100%);
+  /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover, #f0f0f0 37%, #b2b2b2 100%);
+  /* IE10+ */
+  background: radial-gradient(ellipse at center, #f0f0f0 37%, #b2b2b2 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='#b2b2b2', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+  height: 1050px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  z-index: 500;
+}
+/* line 747, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#gears {
+  background-color: ;
+  background: url(../images/cogs.png) 50% 0% no-repeat fixed;
+  height: 1050px;
+  width: 100%;
+}
+/*****  begin #art *****/
+/* line 755, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#art {
+  background: #843232;
+  height: 1050px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  z-index: 600;
+}
+/* line 764, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+#face3d {
+  background: url(../images/artface2.png) 10% 30% no-repeat fixed;
+  height: 1050px;
+  position: relative;
+  width: 100%;
+}
+/* line 772, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  /* ie8 */
+}
+/*  _______________________________________
+
+	05 OVERLAY TEXT
+    _______________________________________  */
+/* line 8, /Users/damoncarlstrom/Sites/DC5/less/overlay-text.less */
+.overlay_text {
+  width: 100%;
+  height: 90px;
+  margin-bottom: 25px;
+  float: left;
+  /*border: 5px solid #f5f5f5;*/
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+/* line 21, /Users/damoncarlstrom/Sites/DC5/less/overlay-text.less */
+.overlay_text img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+/* line 34, /Users/damoncarlstrom/Sites/DC5/less/overlay-text.less */
+.overlay_text .overlay_text_mask {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  transition: all 0.4s;
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+/* Overlays Colors */
+/* line 57, /Users/damoncarlstrom/Sites/DC5/less/overlay-text.less */
+.overlay_text .black_mask {
+  background: #000000;
+  background: rgba(0, 0, 0, 0.8) url(../images/image-more.jpg) 0 0 no-repeat;
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+}
+/* line 64, /Users/damoncarlstrom/Sites/DC5/less/overlay-text.less */
+.addy {
+  background: url(../images/image-more.jpg) 100% 0 no-repeat;
+}
+/* line 65, /Users/damoncarlstrom/Sites/DC5/less/overlay-text.less */
+.overlay_text2 .black_mask2 {
+  background: #000000;
+  background: rgba(0, 0, 0, 0.8) url(../images/image-more.jpg) 0 0 no-repeat;
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+}
+/* line 72, /Users/damoncarlstrom/Sites/DC5/less/overlay-text.less */
+.overlay_text .black_mask h2,
+.overlay_text .black_mask p {
+  color: #FFFFFF;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+/* line 79, /Users/damoncarlstrom/Sites/DC5/less/overlay-text.less */
+.overlay_text .black_mask h2 {
+  font-size: 130%;
+}
+/* line 80, /Users/damoncarlstrom/Sites/DC5/less/overlay-text.less */
+.overlay_text .black_mask p {
+  font-size: 95%;
+}
+/* Overlays Texts */
+/* line 84, /Users/damoncarlstrom/Sites/DC5/less/overlay-text.less */
+.overlay_text h2,
+.overlay_text p {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  position: relative;
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+}
+/* line 101, /Users/damoncarlstrom/Sites/DC5/less/overlay-text.less */
+.overlay_text h2 {
+  font-size: 16px;
+  margin: 15px 0 0 0;
+}
+/* line 105, /Users/damoncarlstrom/Sites/DC5/less/overlay-text.less */
+.overlay_text p {
+  font-size: 11px;
+  line-height: 21px;
+  color: #000000;
+  padding: 5px 20px 10px 20px;
+}
+/* Hover Events */
+/* line 114, /Users/damoncarlstrom/Sites/DC5/less/overlay-text.less */
+.overlay_text:hover img {
+  -webkit-transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1);
+  -o-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+  cursor: pointer;
+}
+/* line 122, /Users/damoncarlstrom/Sites/DC5/less/overlay-text.less */
+.overlay_text:hover .overlay_text_mask,
+.overlay_text:hover h2,
+.overlay_text:hover p {
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+  cursor: pointer;
+}
+/* line 130, /Users/damoncarlstrom/Sites/DC5/less/overlay-text.less */
+.overlay_text:hover h2 {
+  -webkit-transition-delay: 0.1s;
+  -moz-transition-delay: 0.1s;
+  -o-transition-delay: 0.1s;
+  -ms-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+  cursor: pointer;
+}
+/* line 138, /Users/damoncarlstrom/Sites/DC5/less/overlay-text.less */
+.overlay_text:hover p {
+  -webkit-transition-delay: 0.3s;
+  -moz-transition-delay: 0.3s;
+  -o-transition-delay: 0.3s;
+  -ms-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+  cursor: pointer;
+}
+/* Top / Bottom Animation */
+/* line 149, /Users/damoncarlstrom/Sites/DC5/less/overlay-text.less */
+.overlay_top_bottom h2 {
+  -webkit-transform: translateY(-100px);
+  -moz-transform: translateY(-100px);
+  -o-transform: translateY(-100px);
+  -ms-transform: translateY(-100px);
+  transform: translateY(-100px);
+}
+/* line 156, /Users/damoncarlstrom/Sites/DC5/less/overlay-text.less */
+.overlay_top_bottom p {
+  -webkit-transform: translateY(100px);
+  -moz-transform: translateY(100px);
+  -o-transform: translateY(100px);
+  -ms-transform: translateY(100px);
+  transform: translateY(100px);
+}
+/* line 163, /Users/damoncarlstrom/Sites/DC5/less/overlay-text.less */
+.overlay_top_bottom:hover h2,
+.overlay_top_bottom:hover p {
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -o-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+}
+/* Left / Right Animation */
+/* line 174, /Users/damoncarlstrom/Sites/DC5/less/overlay-text.less */
+.overlay_left_right h2 {
+  -webkit-transform: translateX(-100px);
+  -moz-transform: translateX(-100px);
+  -o-transform: translateX(-100px);
+  -ms-transform: translateX(-100px);
+  transform: translateX(-100px);
+}
+/* line 181, /Users/damoncarlstrom/Sites/DC5/less/overlay-text.less */
+.overlay_left_right p {
+  -webkit-transform: translateX(100px);
+  -moz-transform: translateX(100px);
+  -o-transform: translateX(100px);
+  -ms-transform: translateX(100px);
+  transform: translateX(100px);
+}
+/* line 188, /Users/damoncarlstrom/Sites/DC5/less/overlay-text.less */
+.overlay_left_right:hover h2,
+.overlay_left_right:hover p {
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  -o-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  transform: translateX(0px);
+}
+/* line 7, /Users/damoncarlstrom/Sites/DC5/less/tooltip.less */
+.tooltip {
+  position: absolute;
+  z-index: 1030;
+  display: block;
+  visibility: visible;
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+/* line 16, /Users/damoncarlstrom/Sites/DC5/less/tooltip.less */
+.tooltip.in {
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+/* line 17, /Users/damoncarlstrom/Sites/DC5/less/tooltip.less */
+.tooltip.top {
+  margin-top: -3px;
+  padding: 5px 0;
+}
+/* line 18, /Users/damoncarlstrom/Sites/DC5/less/tooltip.less */
+.tooltip.right {
+  margin-left: 3px;
+  padding: 0 5px;
+}
+/* line 19, /Users/damoncarlstrom/Sites/DC5/less/tooltip.less */
+.tooltip.bottom {
+  margin-top: 3px;
+  padding: 5px 0;
+}
+/* line 20, /Users/damoncarlstrom/Sites/DC5/less/tooltip.less */
+.tooltip.left {
+  margin-left: -3px;
+  padding: 0 5px;
+}
+/* line 24, /Users/damoncarlstrom/Sites/DC5/less/tooltip.less */
+.tooltip-inner {
+  max-width: 200px;
+  padding: 3px 8px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #000000;
+  border-radius: 4px;
+}
+/* line 35, /Users/damoncarlstrom/Sites/DC5/less/tooltip.less */
+.tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+/* line 43, /Users/damoncarlstrom/Sites/DC5/less/tooltip.less */
+.tooltip.top .tooltip-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px 5px 0;
+  border-top-color: #000000;
+}
+/* line 50, /Users/damoncarlstrom/Sites/DC5/less/tooltip.less */
+.tooltip.top-left .tooltip-arrow {
+  bottom: 0;
+  left: 5px;
+  border-width: 5px 5px 0;
+  border-top-color: #000000;
+}
+/* line 56, /Users/damoncarlstrom/Sites/DC5/less/tooltip.less */
+.tooltip.top-right .tooltip-arrow {
+  bottom: 0;
+  right: 5px;
+  border-width: 5px 5px 0;
+  border-top-color: #000000;
+}
+/* line 62, /Users/damoncarlstrom/Sites/DC5/less/tooltip.less */
+.tooltip.right .tooltip-arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  border-width: 5px 5px 5px 0;
+  border-right-color: #000000;
+}
+/* line 69, /Users/damoncarlstrom/Sites/DC5/less/tooltip.less */
+.tooltip.left .tooltip-arrow {
+  top: 50%;
+  right: 0;
+  margin-top: -5px;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #000000;
+}
+/* line 76, /Users/damoncarlstrom/Sites/DC5/less/tooltip.less */
+.tooltip.bottom .tooltip-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #000000;
+}
+/* line 83, /Users/damoncarlstrom/Sites/DC5/less/tooltip.less */
+.tooltip.bottom-left .tooltip-arrow {
+  top: 0;
+  left: 5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #000000;
+}
+/* line 89, /Users/damoncarlstrom/Sites/DC5/less/tooltip.less */
+.tooltip.bottom-right .tooltip-arrow {
+  top: 0;
+  right: 5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #000000;
+}
+/* line 1, /Users/damoncarlstrom/Sites/DC5/less/modal-styles.less */
+.modal {
+  display: block;
+  margin: 0 auto;
+  width: 768px;
+  height: 518px;
+  position: relative;
+  background: #525252;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #525252 0%, #b8b6b8 17%, #595959 37%, #747374 56%, #f1f0f0 77%, #7d7d7d 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #525252), color-stop(17%, #b8b6b8), color-stop(37%, #595959), color-stop(56%, #747374), color-stop(77%, #f1f0f0), color-stop(100%, #7d7d7d));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #525252 0%, #b8b6b8 17%, #595959 37%, #747374 56%, #f1f0f0 77%, #7d7d7d 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #525252 0%, #b8b6b8 17%, #595959 37%, #747374 56%, #f1f0f0 77%, #7d7d7d 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #525252 0%, #b8b6b8 17%, #595959 37%, #747374 56%, #f1f0f0 77%, #7d7d7d 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #525252 0%, #b8b6b8 17%, #595959 37%, #747374 56%, #f1f0f0 77%, #7d7d7d 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#525252', endColorstr='#7d7d7d', GradientType=0);
+  /* IE6-9 */
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding-top: 4px;
+  z-index: 9999;
+}
+/* line 22, /Users/damoncarlstrom/Sites/DC5/less/modal-styles.less */
+.modal2 {
+  display: block;
+  margin: 0 auto;
+  width: 680px;
+  height: 320px;
+  position: relative;
+  background: #525252;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #525252 0%, #b8b6b8 17%, #595959 37%, #747374 56%, #f1f0f0 77%, #7d7d7d 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #525252), color-stop(17%, #b8b6b8), color-stop(37%, #595959), color-stop(56%, #747374), color-stop(77%, #f1f0f0), color-stop(100%, #7d7d7d));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #525252 0%, #b8b6b8 17%, #595959 37%, #747374 56%, #f1f0f0 77%, #7d7d7d 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #525252 0%, #b8b6b8 17%, #595959 37%, #747374 56%, #f1f0f0 77%, #7d7d7d 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #525252 0%, #b8b6b8 17%, #595959 37%, #747374 56%, #f1f0f0 77%, #7d7d7d 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #525252 0%, #b8b6b8 17%, #595959 37%, #747374 56%, #f1f0f0 77%, #7d7d7d 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#525252', endColorstr='#7d7d7d', GradientType=0);
+  /* IE6-9 */
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding-top: 4px;
+  z-index: 9999;
+}
+/* line 44, /Users/damoncarlstrom/Sites/DC5/less/modal-styles.less */
+#modal-ui-1,
+#modal-ui-2,
+#modal-ui-3,
+#modal-ui-4 {
+  top: 180px;
+}
+/* line 45, /Users/damoncarlstrom/Sites/DC5/less/modal-styles.less */
+#modal-concepts-1,
+#modal-concepts-2,
+#modal-concepts-3 {
+  top: 240px;
+}
+/* line 46, /Users/damoncarlstrom/Sites/DC5/less/modal-styles.less */
+#modal-print-1,
+#modal-print-2 {
+  top: 255px;
+}
+/* line 47, /Users/damoncarlstrom/Sites/DC5/less/modal-styles.less */
+#modal-art-1 {
+  top: 220px;
+}
+/* line 48, /Users/damoncarlstrom/Sites/DC5/less/modal-styles.less */
+#modal-ani-1,
+#modal-ani-2 {
+  top: 175px;
+}
+/* line 49, /Users/damoncarlstrom/Sites/DC5/less/modal-styles.less */
+#modal-process {
+  top: 375px;
+}
+/* line 51, /Users/damoncarlstrom/Sites/DC5/less/modal-styles.less */
+.m-auto {
+  margin: 0 auto;
+  width: 100%;
+  height: 700px;
+  position: relative;
+}
+/* line 58, /Users/damoncarlstrom/Sites/DC5/less/modal-styles.less */
+.inner-wrap {
+  width: 760px;
+  height: 514px;
+  background: #2a2a2a;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #2a2a2a 0%, #1e1e1e 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2a2a2a), color-stop(100%, #1e1e1e));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #2a2a2a 0%, #1e1e1e 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #2a2a2a 0%, #1e1e1e 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #2a2a2a 0%, #1e1e1e 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #2a2a2a 0%, #1e1e1e 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2a2a2a', endColorstr='#1e1e1e', GradientType=0);
+  /* IE6-9 */
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-left: 4px;
+  position: relative;
+}
+/* line 78, /Users/damoncarlstrom/Sites/DC5/less/modal-styles.less */
+.inner-wrap2 {
+  width: 672px;
+  height: 316px;
+  background: #2a2a2a;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #2a2a2a 0%, #1e1e1e 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2a2a2a), color-stop(100%, #1e1e1e));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #2a2a2a 0%, #1e1e1e 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #2a2a2a 0%, #1e1e1e 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #2a2a2a 0%, #1e1e1e 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #2a2a2a 0%, #1e1e1e 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2a2a2a', endColorstr='#1e1e1e', GradientType=0);
+  /* IE6-9 */
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-left: 4px;
+  position: relative;
+}
+/* line 98, /Users/damoncarlstrom/Sites/DC5/less/modal-styles.less */
+.inner-wrap2 img {
+  width: 93%;
+}
+/* line 100, /Users/damoncarlstrom/Sites/DC5/less/modal-styles.less */
+.gallery-close {
+  background: url(../images/gallery-close-sprite3.png) 0 0 no-repeat;
+  height: 28px;
+  width: 26px;
+  position: absolute;
+  float: right;
+  top: 4px;
+  right: 4px;
+  cursor: pointer;
+  display: block;
+  z-index: 9999;
+}
+/* line 113, /Users/damoncarlstrom/Sites/DC5/less/modal-styles.less */
+.gallery-close:hover,
+.gallery-close:visited {
+  background-position: 0 -28px;
+  cursor: pointer;
+  z-index: 9999;
+}
+/* line 119, /Users/damoncarlstrom/Sites/DC5/less/modal-styles.less */
+.gallery-close:active {
+  background-position: 0 -56px;
+  cursor: pointer;
+  z-index: 9999;
+}
+/* line 125, /Users/damoncarlstrom/Sites/DC5/less/modal-styles.less */
+.inner-gallery-side {
+  padding: 0 15px;
+  margin: 0;
+}
+/* line 129, /Users/damoncarlstrom/Sites/DC5/less/modal-styles.less */
+h2.side-title {
+  border-bottom: 1px white solid;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  padding-bottom: 2px;
+  padding-top: 15px;
+  font-weight: 100;
+  padding-left: 0;
+  letter-spacing: 1px;
+  opacity: .8;
+}
+/* line 142, /Users/damoncarlstrom/Sites/DC5/less/modal-styles.less */
+.inner-gallery-side p {
+  margin-top: -6px;
+  padding: 0;
+  font-size: 12px;
+  letter-spacing: .1em;
+  color: #ececec;
+}
+/* line 149, /Users/damoncarlstrom/Sites/DC5/less/modal-styles.less */
+.gallery-side {
+  float: right;
+  width: 200px;
+  height: 512px;
+  position: relative;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: url(../images/gallery-etch-sm.png) 0 15px no-repeat;
+}
+/* line 162, /Users/damoncarlstrom/Sites/DC5/less/modal-styles.less */
+.tag-list {
+  float: right;
+  position: absolute;
+  bottom: 0;
+  right: 8px;
+  width: 220px;
+  height: auto;
+}
+/* line 171, /Users/damoncarlstrom/Sites/DC5/less/modal-styles.less */
+p.tag {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  color: #ececec;
+  font-weight: 100;
+  text-align: right;
+  padding: 5px 30px 5px 0;
+  margin: 2px 0;
+}
+/* line 173, /Users/damoncarlstrom/Sites/DC5/less/modal-styles.less */
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+}
+/* line 175, /Users/damoncarlstrom/Sites/DC5/less/modal-styles.less */
+#paint-brush {
+  background: url(../images/paint-brush2.png) 100% 50% no-repeat;
+}
+/* line 178, /Users/damoncarlstrom/Sites/DC5/less/modal-styles.less */
+#addy {
+  background: url(../images/addy-logo.png) 100% 50% no-repeat;
+}
+/* line 179, /Users/damoncarlstrom/Sites/DC5/less/modal-styles.less */
+#light-bulb {
+  background: url(../images/light-bulb.png) 100% 50% no-repeat;
+}
+/* line 181, /Users/damoncarlstrom/Sites/DC5/less/modal-styles.less */
+#motion-ball {
+  background: url(../images/motion-ball.png) 100% 50% no-repeat;
+}
+/* line 183, /Users/damoncarlstrom/Sites/DC5/less/modal-styles.less */
+#cube {
+  background: url(../images/3d-cube.png) 100% 50% no-repeat;
+}
+/* line 186, /Users/damoncarlstrom/Sites/DC5/less/modal-styles.less */
+#interface-icon {
+  background: url(../images/interface.png) 100% 50% no-repeat;
+}
+/* line 188, /Users/damoncarlstrom/Sites/DC5/less/modal-styles.less */
+#development-icon {
+  background: url(../images/development-icon.png) 100% 50% no-repeat;
+}
+/* line 1, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.ad-gallery {
+  width: 510px;
+  display: block;
+  position: relative;
+  top: 14px;
+  left: 25px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 12, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.flash-gallery {
+  width: 510px;
+  display: block;
+  position: relative;
+  top: 14px;
+  left: 25px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 23, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.modal * {
+  font-family: 'Lato', sans-serif, Verdana, Arial, sans-serif;
+  color: #E5E5E5;
+  line-height: 135%;
+  font-size: 13px;
+  font-weight: 300;
+}
+/* line 31, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.ad-gallery,
+.ad-gallery * {
+  margin: 0;
+  padding: 0;
+}
+/* line 35, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.ad-gallery .ad-image-wrapper {
+  width: 100%;
+  height: 380px;
+  margin-bottom: 10px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 2px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  background: #000;
+}
+/* line 50, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.ad-gallery .ad-image-wrapper .ad-loader {
+  position: absolute;
+  z-index: 10;
+  top: 48%;
+  left: 48%;
+  border: 1px solid #CCC;
+}
+/* line 57, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.ad-gallery .ad-image-wrapper .ad-next {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 25%;
+  height: 100%;
+  cursor: pointer;
+  display: block;
+  z-index: 200;
+}
+/* line 67, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.ad-gallery .ad-image-wrapper .ad-prev {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 25%;
+  height: 100%;
+  cursor: pointer;
+  display: block;
+  z-index: 200;
+}
+/* line 77, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.ad-gallery .ad-image-wrapper .ad-prev,
+.ad-gallery .ad-image-wrapper .ad-next {
+  /* Or else IE will hide it */
+  background: url(../images/trans.gif);
+}
+/* line 81, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.ad-gallery .ad-image-wrapper .ad-prev .ad-prev-image,
+.ad-gallery .ad-image-wrapper .ad-next .ad-next-image {
+  background: url(../images/ad_prev.png);
+  width: 30px;
+  height: 30px;
+  display: none;
+  position: absolute;
+  top: 47%;
+  left: 0;
+  z-index: 101;
+}
+/* line 91, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.ad-gallery .ad-image-wrapper .ad-next .ad-next-image {
+  background: url(../images/ad_next.png);
+  width: 30px;
+  height: 30px;
+  right: 0;
+  left: auto;
+}
+/* line 98, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.ad-gallery .ad-image-wrapper .ad-image {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+/* line 105, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.ad-gallery .ad-image-wrapper .ad-image a img {
+  border: 0;
+}
+/* line 108, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.ad-gallery .ad-image-wrapper .ad-image .ad-image-description {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding: 7px;
+  text-align: left;
+  width: 100%;
+  z-index: 2;
+  background: url(../images/opa75.png);
+  color: #000;
+}
+/* line 119, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+* html .ad-gallery .ad-image-wrapper .ad-image .ad-image-description {
+  background: none;
+  filter: literal("progid:DXImageTransform.Microsoft.AlphaImageLoader (enabled=true, sizingMethod=scale, src='../images/opa75.png')");
+}
+/* line 123, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.ad-gallery .ad-image-wrapper .ad-image .ad-image-description .ad-description-title {
+  display: block;
+}
+/* line 126, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.ad-gallery .ad-controls {
+  height: 40px;
+  background: url(../images/keyboard-scroll.png) 50% 25% no-repeat;
+}
+/* line 131, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.ad-gallery .ad-info {
+  float: left;
+}
+/* line 134, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.ad-gallery .ad-slideshow-controls {
+  float: right;
+}
+/* line 137, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.ad-gallery .ad-slideshow-controls .ad-slideshow-start,
+.ad-gallery .ad-slideshow-controls .ad-slideshow-stop {
+  padding-left: 5px;
+  cursor: pointer;
+}
+/* line 141, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.ad-gallery .ad-slideshow-controls .ad-slideshow-countdown {
+  padding-left: 5px;
+  font-size: 0.9em;
+}
+/* line 145, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.ad-gallery .ad-slideshow-running .ad-slideshow-start {
+  cursor: default;
+  font-style: italic;
+}
+/* line 149, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.ad-gallery .ad-nav {
+  width: 100%;
+  position: relative;
+}
+/* line 153, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.ad-gallery .ad-forward,
+.ad-gallery .ad-back {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  z-index: 10;
+}
+/* IE 6 doesn't like height: 100% */
+/* line 160, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+* html .ad-gallery .ad-forward,
+.ad-gallery .ad-back {
+  height: 100px;
+}
+/* line 163, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.ad-gallery .ad-back {
+  cursor: pointer;
+  left: -20px;
+  width: 13px;
+  display: block;
+  background: url(../images/ad_scroll_back.png) 0px 22px no-repeat;
+}
+/* line 170, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.ad-gallery .ad-forward {
+  cursor: pointer;
+  display: block;
+  right: -20px;
+  width: 13px;
+  background: url(../images/ad_scroll_forward.png) 0px 22px no-repeat;
+}
+/* line 177, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.ad-gallery .ad-nav .ad-thumbs {
+  overflow: hidden;
+  width: 100%;
+}
+/* line 181, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.ad-gallery .ad-thumbs .ad-thumb-list {
+  float: left;
+  width: 9000px;
+  list-style: none;
+  overflow: hidden;
+}
+/* line 187, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.ad-gallery .ad-thumbs li {
+  float: left;
+  padding-right: 5px;
+  overflow: hidden;
+}
+/* line 192, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.ad-gallery .ad-thumbs li a {
+  display: block;
+}
+/* line 195, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.ad-gallery .ad-thumbs li a img {
+  border: 1px solid #CCC;
+  display: block;
+}
+/* line 199, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.ad-gallery .ad-thumbs li a.ad-active img {
+  border: 1px solid #616161;
+}
+/* Can't do display none, since Opera won't load the images then */
+/* line 203, /Users/damoncarlstrom/Sites/DC5/less/ad-gallery.less */
+.ad-preloads {
+  position: absolute;
+  left: -9000px;
+  top: -9000px;
+}
+@media screen and (min-width: 1024px) {
+  /* line 1, /Users/damoncarlstrom/Sites/DC5/less/1024up.less */
+  .current li {
+    font-size: 16px;
+  }
+  /* line 3, /Users/damoncarlstrom/Sites/DC5/less/1024up.less */
+  p.content,
+  .info-box li {
+    letter-spacing: .1em;
+  }
+  /* line 5, /Users/damoncarlstrom/Sites/DC5/less/1024up.less */
+  #name_slide h3 {
+    font-size: 14px;
+  }
+  /* line 7, /Users/damoncarlstrom/Sites/DC5/less/1024up.less */
+  .info-box {
+    width: 410px;
+  }
+  /* line 9, /Users/damoncarlstrom/Sites/DC5/less/1024up.less */
+  .button-area {
+    width: 180px;
+  }
+  /* line 11, /Users/damoncarlstrom/Sites/DC5/less/1024up.less */
+  .animation-thumb {
+    width: 140px;
+  }
+  /* line 13, /Users/damoncarlstrom/Sites/DC5/less/1024up.less */
+  .overlay_text .black_mask h2 {
+    font-size: 140%;
+  }
+  /* line 15, /Users/damoncarlstrom/Sites/DC5/less/1024up.less */
+  .overlay_text .black_mask p {
+    font-size: 100%;
+  }
+  /* line 17, /Users/damoncarlstrom/Sites/DC5/less/1024up.less */
+  .overlay_text h2 {
+    font-size: 18px;
+  }
+  /* line 19, /Users/damoncarlstrom/Sites/DC5/less/1024up.less */
+  .overlay_text p {
+    font-size: 12px;
+    padding: 5px 20px 20px;
+  }
+  /* line 21, /Users/damoncarlstrom/Sites/DC5/less/1024up.less */
+  #about-box,
+  #interface-box,
+  #concepts-box,
+  #art-box {
+    right: 14%;
+  }
+  /* line 22, /Users/damoncarlstrom/Sites/DC5/less/1024up.less */
+  #print-box {
+    left: 10%;
+  }
+  /* line 23, /Users/damoncarlstrom/Sites/DC5/less/1024up.less */
+  #branch {
+    right: 0px;
+  }
+  /* line 25, /Users/damoncarlstrom/Sites/DC5/less/1024up.less */
+  .modal {
+    height: 588px;
+    width: 938px;
+  }
+  /* line 26, /Users/damoncarlstrom/Sites/DC5/less/1024up.less */
+  .modal2 {
+    height: 350px;
+    width: 750px;
+  }
+  /* line 27, /Users/damoncarlstrom/Sites/DC5/less/1024up.less */
+  #modal-ui-1,
+  #modal-ui-2,
+  #modal-ui-3,
+  #modal-ui-4 {
+    top: 150px;
+  }
+  /* line 28, /Users/damoncarlstrom/Sites/DC5/less/1024up.less */
+  #modal-concepts-1,
+  #modal-concepts-2,
+  #modal-concepts-3 {
+    top: 210px;
+  }
+  /* line 29, /Users/damoncarlstrom/Sites/DC5/less/1024up.less */
+  #modal-print-1,
+  #modal-print-2 {
+    top: 225px;
+  }
+  /* line 30, /Users/damoncarlstrom/Sites/DC5/less/1024up.less */
+  #modal-art-1 {
+    top: 190px;
+  }
+  /* line 31, /Users/damoncarlstrom/Sites/DC5/less/1024up.less */
+  .inner-wrap {
+    height: 584px;
+    width: 930px;
+  }
+  /* line 32, /Users/damoncarlstrom/Sites/DC5/less/1024up.less */
+  .inner-wrap2 {
+    height: 346px;
+    width: 732px;
+  }
+  /* line 33, /Users/damoncarlstrom/Sites/DC5/less/1024up.less */
+  .gallery-side {
+    height: 582px;
+    width: 250px;
+    background: url(../images/gallery-etch.png) 0 15px no-repeat;
+  }
+  /* line 34, /Users/damoncarlstrom/Sites/DC5/less/1024up.less */
+  .ad-gallery,
+  .flash-gallery {
+    width: 630px;
+  }
+  /* line 35, /Users/damoncarlstrom/Sites/DC5/less/1024up.less */
+  .ad-gallery .ad-image-wrapper {
+    height: 450px;
+  }
+  /* line 36, /Users/damoncarlstrom/Sites/DC5/less/1024up.less */
+  .banners {
+    padding-top: 80px;
+  }
+  /* line 37, /Users/damoncarlstrom/Sites/DC5/less/1024up.less */
+  .boingo {
+    padding-top: 70px;
+  }
+}
+/* line 1, /Users/damoncarlstrom/Sites/DC5/less/hacks.less */
+#html5Loader {
+  top: 0;
+  left: 0;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.95);
+  position: fixed;
+  z-index: 9999;
+}
+/* line 9, /Users/damoncarlstrom/Sites/DC5/less/hacks.less */
+#html5Loader .fallback {
+  top: 50%;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  color: white;
+  vertical-align: middle;
+  display: block;
+  font-style: normal;
+}
+/* line 19, /Users/damoncarlstrom/Sites/DC5/less/hacks.less */
+div#wrapper > * {
+  width: 400px;
+}
+/* line 23, /Users/damoncarlstrom/Sites/DC5/less/hacks.less */
+.pushmenu-left {
+  position: fixed;
+  width: 360px;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+/* line 31, /Users/damoncarlstrom/Sites/DC5/less/hacks.less */
+.pushmenu-inner {
+  background: #3c3933;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  width: 360px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -10;
+}
+/* line 43, /Users/damoncarlstrom/Sites/DC5/less/hacks.less */
+.pushmenu-right {
+  background: #3c3933;
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  width: 360px;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+/* line 53, /Users/damoncarlstrom/Sites/DC5/less/hacks.less */
+.pushmenu-push-other {
+  overflow-x: hidden;
+  position: relative;
+}
+/* line 59, /Users/damoncarlstrom/Sites/DC5/less/hacks.less */
+.pushmenu-push.toright > div {
+  transform: translate3d(360px, 0, 0);
+  -webkit-transform: translate3d(360px, 0, 0);
+}
+/* line 67, /Users/damoncarlstrom/Sites/DC5/less/hacks.less */
+.pushmenu-push.toleft > div {
+  transform: translate3d(-360px, 0, 0);
+  -webkit-transform: translate3d(-360px, 0, 0);
+}
+/* line 75, /Users/damoncarlstrom/Sites/DC5/less/hacks.less */
+.pushmenu-push-fixed {
+  position: fixed;
+  z-index: 9000;
+}
+/* line 81, /Users/damoncarlstrom/Sites/DC5/less/hacks.less */
+.pushmenu-push-down {
+  margin-top: 0px;
+}
+/* line 85, /Users/damoncarlstrom/Sites/DC5/less/hacks.less */
+.pushmenu-push-up {
+  margin-top: -48px;
+}
+/* line 89, /Users/damoncarlstrom/Sites/DC5/less/hacks.less */
+.pushmenu-push > div {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+/* line 96, /Users/damoncarlstrom/Sites/DC5/less/hacks.less */
+.toolbar.toolbar-extended {
+  position: fixed;
+  z-index: 999999999;
+}

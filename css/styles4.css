@@ -315,6 +315,7 @@ p#copyright{padding: 3px 5px;}
 	position: relative;
 	width: 100%;
 	overflow: hidden;
+	z-index: 800;
 }
 #home_nav h1 {
 	font-family: 'Lato' , sans-serif;
@@ -411,7 +412,7 @@ h3#nav_art {
 	height: 100px;
 	opacity: .85;
 	position: absolute;
-	z-index: 60;
+	z-index: 650;
 	overflow: hidden;
 	}
 	
@@ -685,18 +686,18 @@ p.info-title {color: #ececec; font-family: 'Lato' , sans-serif; font-size: 16px;
 #about-box {
 	background-color: #000;
 	position: absolute;
-	bottom: 200px;
+	top: 500px;
 	right: 7%;
-	z-index: 60;
+	z-index: 650;
 	overflow: hidden;
 	
 	}
 #interface-box {
 	background-color: #000;
 	position: absolute;
-	bottom: 450px;
+	top: 450px;
 	right: 7%;
-	z-index: 60;
+	z-index: 650;
 	overflow: hidden;
 	
 	}
@@ -706,7 +707,7 @@ p.info-title {color: #ececec; font-family: 'Lato' , sans-serif; font-size: 16px;
 	position: absolute;
 	bottom: 200px;
 	left: 2%;
-	z-index: 60;
+	z-index: 650;
 	overflow: hidden;
 	height: 100px;
 	width: 350px;
@@ -721,7 +722,7 @@ p.info-title {color: #ececec; font-family: 'Lato' , sans-serif; font-size: 16px;
 	position: absolute;
 	bottom: 200px;
 	left: 6%;
-	z-index: 60;
+	z-index: 650;
 	overflow: hidden;
 	
 	}
@@ -731,7 +732,7 @@ p.info-title {color: #ececec; font-family: 'Lato' , sans-serif; font-size: 16px;
 	position: absolute;
 	bottom: 200px;
 	right: 7%;
-	z-index: 60;
+	z-index: 650;
 	overflow: hidden;
 	
 	}
@@ -741,32 +742,75 @@ p.info-title {color: #ececec; font-family: 'Lato' , sans-serif; font-size: 16px;
 	position: absolute;
 	bottom: 200px;
 	right: 7%;
-	z-index: 60;
+	z-index: 650;
 	overflow: hidden;
 	
 	}
+
+	.skrollable {
+	/*
+	 * First-level skrollables are positioned relative to window
+	 */
+	position:fixed;
+
+	/*
+	 * Skrollables by default have a z-index of 100 in order to make it easy to position elements in front/back without changing each skrollable
+	 */
+	z-index:100;
+}
+
+.skrollr-mobile .skrollable {
+	/*
+		May cause issues on Android default browser (see #331 on GitHub).
+	*/
+	position:absolute;
+}
+
+.skrollable .skrollable {
+	/*
+	 * Second-level skrollables are positioned relative their parent skrollable
+	 */
+	position:absolute;
+}
+
+.skrollable .skrollable .skrollable {
+	/*
+	 * Third-level (and below) skrollables are positioned static
+	 */
+	position:static;
+}
+
 /******************* Begin About  ****************/ 
 
 #about {
 	background-color: #0e0e0e;
-	height: 1050px;
+	height: 1250px;
 	width: 100%;
 	position: relative;
 	overflow: hidden;
 }
-#lab {
-	background-color: #0e0e0e;
-	background: url(../images/lab.jpg) 100% 70% no-repeat fixed;
-	height: 1050px;
-	width: 100%;
-}
-#my-face { position: absolute; top: 900px; left: 5px; width: 230px; max-width: 100%; z-index: 20; display: block; float: left;}
+
+.skroll-bg {z-index:50;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;}
+
+#target{ position: absolute; top: 500px; left: 385px; width: 102px; height: 102px; z-index: 30; display: block; float: left;}
+#vertical-scale {background: url(../images/vertical-scale.png) no-repeat; z-index: 60;}
+#rings {z-index: 55;}
+#inner-ring {position: absolute; background: url(../images/center-ring.png) 20% 50% no-repeat; z-index:58; width: 249px; height: 250px;}
+#middle-ring {position: absolute;background: url(../images/middle-ring.png) 20% 50% no-repeat; z-index:57; width: 249px; height: 250px;}
+#outer-ring {position: absolute;  background: url(../images/outer-ring.png) 20% 50% no-repeat; z-index:56; width: 249px; height: 250px;}
+#lab {background: url(../images/lab.jpg) no-repeat; z-index: 50;}
+#my-face { background: url(../images/my-face.jpg) no-repeat; z-index: 49;   }
+
 /** rings end at 280 **/
-#outer-ring { position: absolute; top: 340px; left: 85px; width: 249px; height: 250px; z-index: 20; display: block; float: left;}
+/*#outer-ring { position: absolute; top: 340px; left: 85px; width: 249px; height: 250px; z-index: 20; display: block; float: left;}
 #middle-ring { position: absolute; top: 340px; left: 85px; width: 249px; height: 250px; z-index: 20; display: block; float: left;}
-#inner-ring { position: absolute; top: 340px; left: 85px; width: 249px; height: 250px; z-index: 20; display: block; float: left;}
-#target{ position: absolute; top: 700px; left: 385px; width: 102px; height: 102px; z-index: 30; display: block; float: left;}
-#vertical-scale{ position: absolute; top: 430px; left: 285px; width: 23px; height: 264px; z-index: 30; display: block; float: left;}
+#inner-ring { position: absolute; top: 340px; left: 85px; width: 249px; height: 250px; z-index: 20; display: block; float: left;}*/
+
+/*#vertical-scale{ position: absolute; top: 430px; left: 285px; width: 23px; height: 264px; z-index: 30; display: block; float: left;}*/
 
 
 
@@ -777,23 +821,24 @@ p.info-title {color: #ececec; font-family: 'Lato' , sans-serif; font-size: 16px;
 	width: 100%;
 	position: relative;
 	overflow: hidden;
+	z-index: 200;
 }
 
 #space {
 	background-color: #000;
-	background: url(../images/earth.jpg) 0 0 no-repeat fixed;
-	height: 1050px;
-	width: 100%;
-	/*background-size: auto;
--moz-background-size: cover;
-  background-size: cover;*/
-	}
 	
+	height: 1050px;
+	z-index:200;
+	}
+
+#earth {background: url(../images/earth.jpg) no-repeat; z-index: 210;}	
+
 #control-panel {
 position: relative;
 width: 996px;
 height: 348px;
-margin: 0 auto;	
+margin: 0 auto;
+z-index: 220;
 
 }
 
@@ -803,6 +848,7 @@ margin: 0 auto;
 	height: 348px;
 	background: url(../images/control-panel-sliver.png) 50% 100% repeat-x;
 	top: 450px;
+	z-index: 220;
 }
 /****************** Begin animation_container *********/
 #animation {
@@ -811,6 +857,7 @@ height: 1050px;
 width: 100%;
 position: relative;
 overflow: hidden;	
+z-index: 300;
 }
 
 #jungle-bg {
@@ -839,7 +886,8 @@ background: #f8f7d3;
 height: 1050px;
 position: relative;
 width: 100%;
-overflow: hidden;	
+overflow: hidden;
+z-index: 400;	
 }
 
 #ink{
@@ -855,7 +903,7 @@ left: 100px;
 bottom: 50px;
 width: 332px;
 height: 408px;
-z-index: 40;
+z-index: 400;
 }
 
 #front-ink2 {
@@ -880,7 +928,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', end
 height: 1050px;
 position: relative;
 width: 100%;
-overflow: hidden;	
+overflow: hidden;
+z-index: 500;	
 }
 
 #gears{
@@ -897,6 +946,7 @@ height: 1050px;
 position: relative;
 width: 100%;
 overflow: hidden;	
+z-index: 600;
 }
 
 #face3d{

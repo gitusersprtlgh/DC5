@@ -3,20 +3,22 @@
 
 //(function($){ 
 		//$(window).load(function(){
-			//Home page title slide animation 
+			 
 			
 	    $(document).ready(function(){
-			
+		
+        //Home page title slide animation	
 		slide();
-	
-		
-		$('#lab').parallax("100%", 2500, 0.4, true);
-		$('#space').parallax("50%", 12000, 0.05, true);
-		$('#jungle-bg').parallax("50%", 4200, 0.15, true);
-		$('#gears').parallax("50%", 5600, 0.30, true);
-        $('#ink').parallax("50%", 6700, 0.30, true);
-        $('#face3d').parallax("20%", 7700, 0.30, true);
-		
+
+        function slide() {
+        $("#slide1").slideDown('slow').delay(5700).slideUp('slow');
+        $("#slide2").slideUp(1).delay(6000).slideDown('slow').delay(5000).slideUp('slow').delay(5000);
+        $("#slide3").slideUp(1).delay(12000).slideDown('slow').delay(5000).slideUp('slow').delay(5000);
+        $("#slide4").slideUp(1).delay(18000).slideDown('slow').delay(5000).slideUp('slow').delay(5000);
+        $("#slide5").slideUp(1).delay(24000).slideDown('slow').delay(5000).slideUp('slow').delay(5000);
+        $("#slide6").slideUp(1).delay(30000).slideDown('slow').delay(5000).slideUp('slow').delay(5000);
+        $("#slide7").slideUp(1).delay(36000).slideDown('slow').delay(5000).slideUp('slow' , slide);
+        }   
 	
 //Slide down toolbar when waypoint reached
 $('h3#nav_print').waypoint(function(direction) {
@@ -208,7 +210,7 @@ function(){
 			$('html, body').animate({
     		scrollTop:$('#about').offset().top + 210
     	}, 500, function() {
-	    	parallaxScroll(); // Callback is required for iOS
+	    	NavAutoSelect(); // Callback is required for iOS
 		});
     	return false;
 			});
@@ -218,7 +220,7 @@ function(){
 			$('html, body').animate({
     		scrollTop:$('#interface').offset().top + 90
     	}, 500, function() {
-	    	parallaxScroll(); // Callback is required for iOS
+	    	NavAutoSelect(); // Callback is required for iOS
 		});
     	return false;
 			});
@@ -228,7 +230,7 @@ function(){
             $('html, body').animate({
             scrollTop:$('#animation').offset().top + 120
         }, 500, function() {
-            parallaxScroll(); // Callback is required for iOS
+            NavAutoSelect(); // Callback is required for iOS
         });
         return false;
             });
@@ -238,7 +240,7 @@ function(){
 			$('html, body').animate({
     		scrollTop:$('#print').offset().top + 165
     	}, 500, function() {
-	    	parallaxScroll(); // Callback is required for iOS
+	    	NavAutoSelect(); // Callback is required for iOS
 		});
     	return false;
 			});
@@ -248,7 +250,7 @@ function(){
 			$('html, body').animate({
     		scrollTop:$('#concepts').offset().top + 150
     	}, 500, function() {
-	    	parallaxScroll(); // Callback is required for iOS
+	    	NavAutoSelect(); // Callback is required for iOS
 		});
     	return false;
 			});
@@ -258,7 +260,7 @@ function(){
 			$('html, body').animate({
     		scrollTop:$('#art').offset().top + 130
     	}, 500, function() {
-	    	parallaxScroll(); // Callback is required for iOS
+	    	NavAutoSelect(); // Callback is required for iOS
 		});
     	return false;
 			});
@@ -286,8 +288,7 @@ function(){
 		
 		//Scroll event handler 
     $(window).bind('scroll',function(e){
-    	parallaxScroll();
-		redrawDotNav();
+		NavAutoSelect();
     });
     
 	//Next/prev and primary nav btn click handlers 
@@ -295,7 +296,7 @@ function(){
     	$('html, body').animate({
     		scrollTop:0
     	}, 1000, function() {
-	    	parallaxScroll(); // Callback is required for iOS
+	    	NavAutoSelect(); // Callback is required for iOS
 		});
     	return false;
 	});
@@ -306,7 +307,7 @@ function(){
     	$('html, body').animate({
     		scrollTop:$('#about').offset().top + 210
     	}, 1000, function() {
-	    	parallaxScroll(); // Callback is required for iOS
+	    	NavAutoSelect(); // Callback is required for iOS
 		});
     	return false;
     	})
@@ -317,7 +318,7 @@ function(){
     	$('html, body').animate({
     		scrollTop:$('#interface').offset().top + 90
     	}, 1000, function() {
-	    	parallaxScroll(); // Callback is required for iOS
+	    	NavAutoSelect(); // Callback is required for iOS
 		});
     	return false;
     });
@@ -327,7 +328,7 @@ function(){
     	$('html, body').animate({
     		scrollTop:$('#animation').offset().top + 120
     	}, 1000, function() {
-	    	parallaxScroll(); // Callback is required for iOS
+	    	NavAutoSelect(); // Callback is required for iOS
 		});
     	return false;
     });
@@ -337,7 +338,7 @@ function(){
     	$('html, body').animate({
     		scrollTop:$('#print').offset().top + 165
     	}, 1000, function() {
-	    	parallaxScroll(); // Callback is required for iOS
+	    	NavAutoSelect(); // Callback is required for iOS
 		});
     	return false;
     });
@@ -347,7 +348,7 @@ function(){
     	$('html, body').animate({
     		scrollTop:$('#concepts').offset().top + 150
     	}, 1000, function() {
-	    	parallaxScroll(); // Callback is required for iOS
+	    	NavAutoSelect(); // Callback is required for iOS
 		});
     	return false;
     });
@@ -357,7 +358,7 @@ function(){
     	$('html, body').animate({
     		scrollTop:$('#art').offset().top + 130
     	}, 1000, function() {
-	    	parallaxScroll(); // Callback is required for iOS
+	    	NavAutoSelect(); // Callback is required for iOS
 		});
     	return false;
     });
@@ -368,7 +369,7 @@ function(){
     	$('html, body').animate({
     		scrollTop:$('#about').offset().top + 210
     	}, 1000, function() {
-	    	parallaxScroll(); // Callback is required for iOS
+	    	NavAutoSelect(); // Callback is required for iOS
 		});
     	return false;
     });
@@ -380,7 +381,7 @@ function(){
     	$('html, body').animate({
     		scrollTop:$('#interface').offset().top + 90
     	}, 1300, function() {
-	    	parallaxScroll(); // Callback is required for iOS
+	    	NavAutoSelect(); // Callback is required for iOS
 		});
     	return false;
     	});
@@ -390,7 +391,7 @@ function(){
     	$('html, body').animate({
     		scrollTop:$('#animation').offset().top + 120
     	}, 1600, function() {
-	    	parallaxScroll(); // Callback is required for iOS
+	    	NavAutoSelect(); // Callback is required for iOS
 		});
     	return false;
     	});
@@ -401,7 +402,7 @@ function(){
     	$('html, body').animate({
     		scrollTop:$('#print').offset().top + 165
     	}, 1900, function() {
-	    	parallaxScroll(); // Callback is required for iOS
+	    	NavAutoSelect(); // Callback is required for iOS
 		});
     	return false;
     	});
@@ -411,7 +412,7 @@ function(){
     	$('html, body').animate({
     		scrollTop:$('#concepts').offset().top + 150
     	}, 2200, function() {
-	    	parallaxScroll(); // Callback is required for iOS
+	    	NavAutoSelect(); // Callback is required for iOS
 		});
     	return false;
     	});
@@ -421,7 +422,7 @@ function(){
     	$('html, body').animate({
     		scrollTop:$('#art').offset().top + 130
     	}, 2500, function() {
-	    	parallaxScroll(); // Callback is required for iOS
+	    	NavAutoSelect(); // Callback is required for iOS
 		});
     	return false;
     	});
@@ -442,7 +443,7 @@ function(){
 
 
 /* Scroll the background layers */
-function parallaxScroll(){
+/*function parallaxScroll(){
 	var scrolled = $(window).scrollTop();
 	
 	//About Scrolling
@@ -464,9 +465,9 @@ function parallaxScroll(){
     $('#concepts-box').css('top',(2030-(scrolled*.42))+'px');
     $('#art-box').css('top',(2900-(scrolled*.42))+'px');
 	
-}
+}*/
 
-var sdegree = 0;
+/*var sdegree = 0;
 
 $(window).scroll(function(event, direction) {
  if (direction === 'down') {
@@ -485,10 +486,10 @@ $(window).scroll(function(event, direction) {
    }
    
 
-});
+});*/
 
-/* Set navigation dots to an active state as the user scrolls */
-function redrawDotNav(){
+/* Scroll to next Nav Item as the screen reaches halfway through the next section container */
+function NavAutoSelect(){
 	var section1Top =  0;
 	// The top of each section is offset by half the distance to the previous section.
 	var section2Top =  $('#about').offset().top - (($('#interface').offset().top - $('#about').offset().top) / 2); 
@@ -1209,15 +1210,7 @@ function redrawDotNav(){
 		*/
 			 });
 			 
-   function slide() {
-		$("#slide1").slideDown('slow').delay(5000).slideUp('slow').delay(5000);
-		$("#slide2").slideUp(1).delay(6000).slideDown('slow').delay(5000).slideUp('slow').delay(5000);
-		$("#slide3").slideUp(1).delay(12000).slideDown('slow').delay(5000).slideUp('slow');
-		$("#slide4").slideUp(1).delay(18000).slideDown('slow').delay(5000).slideUp('slow').delay(5000);
-		$("#slide5").slideUp(1).delay(24000).slideDown('slow').delay(5000).slideUp('slow').delay(5000);
-		$("#slide6").slideUp(1).delay(30000).slideDown('slow').delay(5000).slideUp('slow').delay(5000);
-		$("#slide7").slideUp(1).delay(36000).slideDown('slow').delay(5000).slideUp('slow' , slide);
-		}	
+
 //})(jQuery); 
 			
 
