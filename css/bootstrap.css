@@ -3308,26 +3308,25 @@ p.info-title {
 }
 /* line 668, /Users/damoncarlstrom/Sites/DC5/less/base.less */
 #jungle {
-  background: #000000 url(../images/jungle-back.jpg) no-repeat 50% 0;
   overflow: hidden;
   height: 1250px;
   z-index: 400;
+  position: fixed;
 }
-/* line 676, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+/* line 677, /Users/damoncarlstrom/Sites/DC5/less/base.less */
 #jungle-bg {
   background: #000000 url(../images/jungle-back.jpg) 50% 0 no-repeat;
   overflow: hidden;
   height: 1250px;
   width: 100%;
 }
-/* line 684, /Users/damoncarlstrom/Sites/DC5/less/base.less */
+/* line 685, /Users/damoncarlstrom/Sites/DC5/less/base.less */
 #branch {
   position: absolute;
   right: -100px;
   top: 0px;
   width: 863px;
   height: 816px;
-  z-index: 40;
   padding-left: 40px;
   margin-left: 40px;
   z-index: 320;
