@@ -72,6 +72,7 @@ function(){
 
 //Interface box animation 
 		$("#oc_interface").click(function () {
+			console.log("test");
     if ($('.button-area #open-interface').is(':visible')) {
         $("#oc_interface h2").fadeOut("fast" , function () {
             $(".button-area #open-interface").fadeOut("fast" , function () {

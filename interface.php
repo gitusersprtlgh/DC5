@@ -116,9 +116,10 @@
     </div>
     <!-- modal-ui-4 -->
     <div id="space">
-        <div id="earth" class="skroll-bg" data-1800="opacity: 0;" data-1900="opacity: 1;background-position:40% 400px;" data-3000="background-position:40% 300px;"></div>
-        <div id="shadow" class="skroll-bg" data-1700="opacity: 0;" data-1800="opacity: 1; background-position:40% 300px;" data-3000="background-position:40% 200px;"></div>
-        <div id="sun-burst" class="skroll-bg" data-1700="opacity: 0;" data-1800="opacity: 1; block;background-position:-20% 200px;" data-3000="background-position:-20% 0px;"></div>
+	
+        <div id="earth" class="skroll-bg" data-0 ="position:relative" data-1800="opacity: 0;position:fixed" data-1900="opacity: 1;background-position:40% 400px;" data-3000="background-position:40% 300px;"></div>
+        <div id="shadow" class="skroll-bg" data-0 ="position:relative" data-1700="opacity: 0;position:fixed" data-1800="opacity: 1; background-position:40% 300px;" data-3000="background-position:40% 200px;"></div>
+        <div id="sun-burst" class="skroll-bg" data-0 ="position:relative" data-1700="opacity: 0;position:fixed" data-1800="opacity: 1; block;background-position:-20% 200px;" data-3000="background-position:-20% 0px;"></div>
       <div id="panel-sliver">
         <div id="control-panel"><img src="images/control-panel.png" alt=""></div>
       </div>
