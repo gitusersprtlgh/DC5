@@ -51,7 +51,10 @@ $.html5Loader({
     </div>
     <!-- end .contact_btn -->
 
+
     <nav class="current">
+    <div id="triangle-topright"></div>
+    <div id="triangle-topleft"></div>
       <ul>
         <li class="menu" id="home-tab"><a href="#home">Home</a></li>
         <li class="menu" id="about-tab"><a href="#about" >About</a></li>
@@ -61,9 +64,9 @@ $.html5Loader({
         <li class="menu" id="print-tab"><a href="#print">Print</a></li>
         <li class="menu" id="art-tab"><a href="#art">Art</a></li>
       </ul>
+      
     </nav>
     <!-- end .nav --> 
-    
   </div>
   <!-- end .toolbar -->
   
