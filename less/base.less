@@ -1,5 +1,5 @@
 body {
-	font: 100%/1.4 'Lato', Arial, Helvetica, sans-serif;
+	font: 100%/1.4 @main-font;
 	margin: 0;
 	padding: 0;
 	background: black;
@@ -17,26 +17,13 @@ h1, h2, h3, h4, h5, h6, p {
 	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
 }
 
-
-a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
-	border: none;
-}
-a:link {
-	color: #9f9e9e;
-	text-decoration: none;
-}
-a:visited {
-	color: #4E5869;
-	text-decoration: underline;
-}
-a:hover, a:active, a:focus {
-	text-decoration: none;
+a {
+	img {border: none;}
+	&:link {color: #9f9e9e; text-decoration: none;}
+	&:visited {color: #4E5869; text-decoration: underline;}
+	&:hover, &:active, &:focus {text-decoration: none;}
 }
 
-
-
-
-/*************  end Buttons **************/
 .outer_container {
 	width: 100%;
 	/*max-width: 1260px;/* a max-width may be desirable to keep this layout from getting too wide on a large monitor. This keeps line length more readable. IE6 does not respect this declaration. */
@@ -46,17 +33,16 @@ a:hover, a:active, a:focus {
 }
 /* ~~ This is the layout information. ~~ */
 
-
 .content {
 	padding: 0 15px; line-height: 1.6em;
 }
 /* ~~ This grouped selector gives the lists in the .content area space ~~ */
 .content ul, .content ol,  {
-	padding: 0 15px 15px 40px; font-family: 'Lato' , sans-serif; font-size: 15px; color: white; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+	padding: 0 15px 15px 40px; font-family: @main-font; font-size: 15px; color: white; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
 }
-p.content, .info-box li {font-family: 'Lato' , sans-serif; font-size: 14px; font-weight: 100; color: white; letter-spacing: .05em;}
+p.content, .info-box li {font-family: @main-font; font-size: 14px; font-weight: 100; color: white; letter-spacing: .05em;}
 
-ul, ol, dl {padding: 0 15px 15px 40px; font-family: 'Lato' , sans-serif; font-size: 15px; color: white; line-height: 1.4em;}
+ul, ol, dl {padding: 0 15px 15px 40px; font-family: @main-font; font-size: 15px; color: white; line-height: 1.4em;}
 
 li {margin-bottom: 7px;}
 
@@ -76,16 +62,16 @@ li {margin-bottom: 7px;}
 	line-height: 0px;
 }
 
-#copyright {position: fixed; bottom: 0; right: 0; padding: 0 5px 5px 0; margin: 0; 	font-family: 'Lato' , sans-serif;
+#copyright {position: fixed; bottom: 0; right: 0; padding: 0 5px 5px 0; margin: 0; 	font-family: @main-font;
 	font-weight: 100; font-size: 13px; color: #999;z-index: 999; background: rgba(0, 0, 0, .85);}
 
 p#copyright{padding: 3px 5px;}
 
-	#osmplayer {
+#osmplayer {
 	position: absolute;
 	top: 490px;
 	left: 105px;
-	}
+}
 /******************  Begin Home  ****************/
 .home_container {
 	background-color: #1c1b1b;
@@ -96,9 +82,9 @@ p#copyright{padding: 3px 5px;}
 	z-index: 800;
 }
 #home_nav h1 {
-	font-family: 'Lato' , sans-serif;
+	font-family: @main-font;
 	font-size: 40px;
-	color: #60e385;
+	color: @neon-light-green;
 	font-weight: 100;
 	letter-spacing: 2px;
 	margin: 0 auto;
@@ -110,7 +96,7 @@ p#copyright{padding: 3px 5px;}
 	height: 500px;;
 }
 h3.x_nav {
-	font-family: 'Lato' , sans-serif;
+	font-family: @main-font;
 	font-weight: 100;
 	letter-spacing: 1px;
 	font-size: 14px;
@@ -168,7 +154,7 @@ h3#nav_print {
 h3#nav_concepts {
 	position: absolute;
 	top: 275px;
-	left: 342px;
+	left: 387px;
 	z-index: 20;
 }
 h3#nav_art {
@@ -192,76 +178,81 @@ h3#nav_art {
 	position: absolute;
 	z-index: 650;
 	overflow: hidden;
-	}
+}
 	
-.info-box header {font-family: 'Lato' , sans-serif;
+.info-box header {font-family: @main-font;
 	font-size: 42px;
-	color: #60e385;
+	color: @neon-light-green;
 	font-weight: 100;
 	letter-spacing: 1px;
 	padding: 6px 10px 0px 12px;
 	margin: 0;
-	
-	}
+}
 
-	#animation-box header {font-family: 'Lato' , sans-serif;
+#animation-box header {font-family: @main-font;
 	font-size: 42px;
-	color: #60e385;
+	color: @neon-light-green;
 	font-weight: 100;
 	letter-spacing: 1px;
 	padding: 6px 10px 0px 12px;
-	margin: 0;
-	
-	}
-	.large-link {font-family: 'Lato' , sans-serif;
+	margin: 0;	
+}
+
+.large-link {font-family: @main-font;
 	font-size: 26px;
-	color: #60e385;
+	color: @neon-light-green;
 	font-weight: 100;
 	margin: 0;
-	cursor: pointer;
-	
-	}
-	.large-link:hover {font-family: 'Lato' , sans-serif;
+	cursor: pointer;	
+}
+
+.large-link:hover {font-family: @main-font;
 	font-size: 26px;
 	color: #0ba9d0;
 	font-weight: 100;
 	margin: 0;
 	cursor: pointer;
-	}	
+}	
+
 .inner-content {padding: 15px;}
-.button-area {float: right; width: 130px; height: 50px;  position: relative; padding: 10px 10px 0 0;}
-.button-area2 {float: left; width: 150px; height: 50px;  position: absolute; padding: 10px 0 0 190px;}
-.animation-thumb {position: absolute; float: left; width: 130px; height: 70px; top: 15px; overflow: hidden;}
-.button-area p {float: right; font-size: 12px; color: #ececec; font-family: 'Lato' , sans-serif;letter-spacing: 1px; padding: 4px 0 0 0; margin: 0;}
-.button-area2 p {float: right; font-size: 12px; color: #ececec; font-family: 'Lato' , sans-serif;letter-spacing: 1px; padding: 4px 0 0 0; margin: 0;}
-/*.open-close-btn {background-image:url(../images/open-close.png); position: relative; width: 53px; height: 53px; z-index: 70; float: right; display: block; cursor: pointer;  }
-.open-close-btn:hover {background-position:0 -53px; cursor: pointer;}
-.open-close-btn:active {background-postion:0 -106px; cursor: pointer;}*/
 
-.open-close-btn {background: #0eb566;  position: relative; width: 34px; height: 34px; z-index: 70; float: right; display: block; cursor: pointer;  -webkit-transition: all .3s linear;
-      -moz-transition: all .3s linear;
-           transition: all .3s linear;}
-.open-close-btn:hover {background: #0ba9d0;  cursor: pointer;}
-.open-close-btn:active {background: #0ba9d0;  cursor: pointer;}
+.button-area {float: right; width: 130px; height: 50px;  position: relative; padding: 10px 10px 0 0;
 
-.open-close-btn h2{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: 100; font-size: 40px; color: black; text-shadow: 3px 3px 2px #000 inset; margin: -12px 0 0 -9px;  display: block;}
-.open-close-btn h3{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: 100; font-size: 30px; color: black; text-shadow: 3px 3px 2px #000 inset; margin: -16px 0 0 -6px;  position: absolute; display: none;}
-.button-area .title-open{display: block; padding-right: 5px; margin-top: -4px;}
-.button-area .title-close{display: none; padding-right: 5px; margin-top: -4px;}
-.button-area2 .title-open{display: block; padding-right: 5px; margin-top: -4px;}
-.button-area2 .title-close{display: none; padding-right: 5px; margin-top: -4px;}
+		p {float: right; font-size: 12px; color: #ececec; font-family: @main-font;letter-spacing: 1px; padding: 4px 0 0 0; margin: 0;}
+}
+.button-area2 {float: left; width: 150px; height: 50px;  position: absolute; padding: 10px 0 0 190px;
 
+		p {float: right; font-size: 12px; color: #ececec; font-family: @main-font;letter-spacing: 1px; padding: 4px 0 0 0; margin: 0;}
+}
+
+.open-close-btn {background: @neon-green;  position: relative; width: 34px; height: 34px; z-index: 70; float: right; display: block; cursor: pointer;  -webkit-transition: all .3s linear; -moz-transition: all .3s linear; transition: all .3s linear;
+
+           &:hover {background: #0ba9d0;  cursor: pointer;}
+           &:active {background: #0ba9d0;  cursor: pointer;}
+           h2{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: 100; font-size: 40px; color: black; text-shadow: 3px 3px 2px #000 inset; margin: -12px 0 0 -9px;  display: block;}
+           h3{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: 100; font-size: 30px; color: black; text-shadow: 3px 3px 2px #000 inset; margin: -16px 0 0 -6px;  position: absolute; display: none;}
+}
+
+.button-area {
+	
+		.title-open{display: block; padding-right: 5px; margin-top: -4px;}
+		.title-close{display: none; padding-right: 5px; margin-top: -4px;}
+}
+
+.button-area2 {
+	
+		.title-open{display: block; padding-right: 5px; margin-top: -4px;}
+		.title-close{display: none; padding-right: 5px; margin-top: -4px;}
+}
 
 .invert {
 -ms-transform:rotate(180deg); /* IE 9 */
 -moz-transform:rotate(180deg); /* Firefox */
 -webkit-transform:rotate(180deg); /* Safari and Chrome */
--o-transform:rotate(180deg); /* Opera */}
+-o-transform:rotate(180deg); /* Opera */
+}
 
-p.info-title {color: #ececec; font-family: 'Lato' , sans-serif; font-size: 16px; margin-top: -2px; letter-spacing: .1em; font-weight: 200;}
-
-/*  _______________________________________
-
+p.info-title {color: #ececec; font-family: @main-font; font-size: 16px; margin-top: -2px; letter-spacing: .1em; font-weight: 200;}
 
 /**************************
 
@@ -300,8 +291,6 @@ p.info-title {color: #ececec; font-family: 'Lato' , sans-serif; font-size: 16px;
 	opacity: .85;
 	
 	}
-
-
 
 #print-box {
 	background-color: #000;
@@ -366,7 +355,9 @@ p.info-title {color: #ececec; font-family: 'Lato' , sans-serif; font-size: 16px;
 	position:static;
 }
 
-/******************* Begin About  ****************/ 
+/************************* 
+Begin About Section
+*************************/ 
 
 #about {
 	background-color: #0e0e0e;
@@ -391,10 +382,10 @@ p.info-title {color: #ececec; font-family: 'Lato' , sans-serif; font-size: 16px;
 #target{ position: absolute; top: 700px; left: 385px; width: 102px; height: 102px; z-index: 30; display: block; float: left;}
 #vertical-scale{ position: absolute; top: 430px; left: 285px; width: 23px; height: 264px; z-index: 30; display: block; float: left;}
 
+/*************************  
+Begin Interface Section
+*************************/
 
-
-
-/********************  Begin interface_container *****/
 #interface {
 	background-color: #000;
 	height: 1050px;
@@ -413,11 +404,10 @@ p.info-title {color: #ececec; font-family: 'Lato' , sans-serif; font-size: 16px;
 	}
 	
 #control-panel {
-position: relative;
-width: 996px;
-height: 348px;
-margin: 0 auto;	
-
+	position: relative;
+	width: 996px;
+	height: 348px;
+	margin: 0 auto;	
 }
 
 #panel-sliver {
@@ -427,13 +417,16 @@ margin: 0 auto;
 	background: url(../images/control-panel-sliver.png) 50% 100% repeat-x;
 	top: 450px;
 }
-/****************** Begin animation_container *********/
+/************************ 
+Begin Animation Section
+*************************/
+
 #animation {
-background-color: black;
-height: 1050px;
-width: 100%;
-position: relative;
-overflow: hidden;	
+	background-color: black;
+	height: 1050px;
+	width: 100%;
+	position: relative;
+	overflow: hidden;	
 }
 
 #jungle-bg {
@@ -447,23 +440,27 @@ overflow: hidden;
 	}
 	
 #branch {
-position: absolute;
-right: 0px;
-top: 0px;
-width: 863px;
-height: 816px;
-z-index: 40;
-padding-left: 40px;
-margin-left: 40px; 
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 863px;
+	height: 816px;
+	z-index: 40;
+	padding-left: 40px;
+	margin-left: 40px; 
 }
-/*****************  begin print container *********/
+
+/*********************  
+Begin Print Section
+**********************/
+
 #print{
-background: #f8f7d3;
-height: 1050px;
-position: relative;
-width: 100%;
-overflow: hidden;
-z-index: 400;	
+	background: #f8f7d3;
+	height: 1050px;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	z-index: 400;	
 }
 
 #ink{
@@ -474,24 +471,27 @@ z-index: 400;
 	}
 	
 #front-ink1 {
-position: absolute;
-left: 100px;
-bottom: 50px;
-width: 332px;
-height: 408px;
-z-index: 400;
+	position: absolute;
+	left: 100px;
+	bottom: 50px;
+	width: 332px;
+	height: 408px;
+	z-index: 400;
 }
 
 #front-ink2 {
-position: absolute;
-right: 20px;
-top: 50px;
-width: 611px;
-height: 644px;
-z-index: 40;
+	position: absolute;
+	right: 20px;
+	top: 50px;
+	width: 611px;
+	height: 644px;
+	z-index: 40;
 }
 
-/***** begin #concepts ***/
+/********************* 
+Begin Concepts Section
+*********************/
+
 #concepts{
 background: #f0f0f0; /* Old browsers */
 background: -moz-radial-gradient(center, ellipse cover,  #f0f0f0 37%, #b2b2b2 100%); /* FF3.6+ */
@@ -515,22 +515,24 @@ z-index: 500;
 	width: 100%;
 	}
 
-/*****  begin #art *****/
+/******************  
+Begin Art Section 
+*******************/
+
 #art{
-background: rgb(132, 50, 50);
-height: 1050px;
-position: relative;
-width: 100%;
-overflow: hidden;	
-z-index: 600;
+	background: rgb(132, 50, 50);
+	height: 1050px;
+	position: relative;
+	width: 100%;
+	overflow: hidden;	
+	z-index: 600;
 }
 
 #face3d{
-background: url(../images/artface2.png) 10% 30% no-repeat fixed;
-height: 1050px;
-position: relative;
-width: 100%;
-	
+	background: url(../images/artface2.png) 10% 30% no-repeat fixed;
+	height: 1050px;
+	position: relative;
+	width: 100%;
 }
 
 img {

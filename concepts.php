@@ -115,8 +115,9 @@
           <!-- end .info-control --></div>
         <div class="button-area">
           <div class="open-close-btn" id="oc_concepts">
-            <h2>+</h2>
-            <h3>_</h3>
+            <section class="si-icons si-icons-default">
+              <span class="si-icon si-icon-plus" data-icon-name="plus"></span>
+            </section>
           </div>
           <!-- end #open-close-btn -->
           <p class="title-open" id="open-concepts">Open</p>

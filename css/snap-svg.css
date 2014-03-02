@@ -1,0 +1,14 @@
+.si-icons span {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  margin: 40px 30px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* Fallback for browsers that don't support SVG - Generated with http://iconizr.com/ */
+.no-svg .si-icon-plus,
+.no-svg .si-icon-plus-cross {
+  background-image: url('../png/plus.png');
+}

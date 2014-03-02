@@ -23,13 +23,15 @@
 <script type="text/javascript" src="templates/default/js/osmplayer.default.js"></script>
 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script> 
 <script type="text/javascript" charset="utf-8" src="Power4_edgePreload.js"></script>
+<script type="text/javascript" src="js/snap.svg-min.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.4.js"></script>
 <script type="text/javascript">
  $('document').ready( function ($){
 
 var loaderAnimation = $("#html5Loader").LoaderAnimation();
 $.html5Loader({
-		getFilesToLoadJSON:'js/files.json',
-		onUpdate: loaderAnimation.update
+    getFilesToLoadJSON:'js/files.json',
+    onUpdate: loaderAnimation.update
 });
 
 });
@@ -42,38 +44,43 @@ $.html5Loader({
 
 <div class="outer_container">
   <div class="toolbar" style="position: fixed;">
-    <div class="resume_btn"> <a href="resume.html" id="resume_btn"></a>
-      <img style="position: relative; top: 15px; left: 5px;" src="images/etch.png" alt=""> </div>
-    <!-- end .resume_btn -->
-    <div class="contact_btn"> <img style="position: relative; top: 12px; right: 50px;  float: right;" src="images/etch.png" alt=""> 
-      <a id="contact_btn" href="contact.php"></a> 
-          <div ><img id="tooltip" style="display: none; padding-top: 10px; width: 89px; height: 43px; z-index: 999;" src="images/contact_me2.png" alt=""></div>
+    <div class="top_tab left_tab">
+      <div class="triangle-topleft tri-large-left"></div> 
+        <div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b" style="padding-left: .5em;">
+          <a href="#set-7" class="hi-icon glyphicon-heart ">Settings</a>
+        </div>
     </div>
-    <!-- end .contact_btn -->
+    <div class="top_tab right_tab">
+      <div class="triangle-topright tri-large-right"></div> 
+        <div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b opposite" style="padding-right: .5em;">
+          <a href="#set-7" class="hi-icon glyphicon-envelope ">Settings</a>
+        </div>
+    </div>
 
+    <div class="" style="position: absolute; top:0; left:0; width: 300px; height: 400px; border: 1px solid white; display: block;">
+    </div>
 
     <nav class="current">
-    <div id="triangle-topright"></div>
-    <div id="triangle-topleft"></div>
-      <ul>
-        <li class="menu" id="home-tab"><a href="#home">Home</a></li>
-        <li class="menu" id="about-tab"><a href="#about" >About</a></li>
-        <li class="menu" id="interface-tab"><a href="#interface">Interface</a></li>
-        <li class="menu" id="animation-tab"><a href="#animation">Animation</a></li>
-        <li class="menu" id="concepts-tab"><a href="#campaigns">Concepts</a></li>
-        <li class="menu" id="print-tab"><a href="#print">Print</a></li>
-        <li class="menu" id="art-tab"><a href="#art">Art</a></li>
-      </ul>
-      
+      <div class="triangle-topright"></div>
+      <div id="triangle-topleft" class="triangle-topleft"></div>
+        <ul>
+          <li class="menu" id="home-tab"><a href="#home">Home</a></li>
+          <li class="menu" id="about-tab"><a href="#about" >About</a></li>
+          <li class="menu" id="interface-tab"><a href="#interface">Interface</a></li>
+          <li class="menu" id="animation-tab"><a href="#animation">Animation</a></li>
+          <li class="menu" id="concepts-tab"><a href="#campaigns">Concepts</a></li>
+          <li class="menu" id="print-tab"><a href="#print">Print</a></li>
+          <li class="menu" id="art-tab"><a href="#art">Art</a></li>
+        </ul>
     </nav>
     <!-- end .nav --> 
   </div>
   <!-- end .toolbar -->
   
   <div class="home_container" id="home">
-    <p id="copyright">Designed &#38; Developed by Damon Carlstrom &#169; 2013</p>
     <div id="home_nav">
       <h1>Damon Carlstrom</h1>
+      <span class="si-icon si-icon-plus" data-icon-name="plus"></span>
       <div id="name_slide">
         <div id="slide1" style="position: absolute; right: 0px; top: 0px;overflow:hidden;">
           <h3 style="color: #7fb1c8; background-color: black;">User-Interface Specialist</h3>
@@ -139,6 +146,8 @@ $.html5Loader({
 <script type="text/javascript" src="templates/default/js/osmplayer.pager.default.js"></script> 
 <script type="text/javascript" src="templates/default/js/osmplayer.playLoader.default.js"></script> 
 <script type="text/javascript" src="templates/default/js/osmplayer.playlist.default.js"></script> 
+<script type="text/javascript" src="js/svgicons-config.js"></script>
+<script type="text/javascript" src="js/svgicons.js"></script>
 <script type="text/javascript" src="js/custom-animations.js"></script>
 
 
@@ -154,19 +163,28 @@ var _gaq = _gaq || [];
   })();
 
 
-  var s = skrollr.init({
-    edgeStrategy: 'set',
-    easing: {
-      WTF: Math.random,
-      inverted: function(p) {
-        return 1-p;
-      }
-    }
-  });
+ // var s = skrollr.init({
+ //   edgeStrategy: 'set',
+ //   easing: {
+ //     WTF: Math.random,
+ //     inverted: function(p) {
+ //       return 1-p;
+ //     }
+ //   }
+//  });
 
-</script>
+      (function() {
+        // initialize all
+        
+        [].slice.call( document.querySelectorAll( '.si-icons-default > .si-icon' ) ).forEach( function( el ) {
+          var svgicon = new svgIcon( el, svgIconConfig );
+        } );
 
-</div>
+        new svgIcon( document.querySelector( '.si-icons-easing .si-icon-plus' ), svgIconConfig, { easing : mina.backin } );
+      
+      })();
+    </script>
+
 </body>
 
 

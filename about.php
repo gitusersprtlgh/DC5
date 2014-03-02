@@ -18,8 +18,9 @@
         <!-- end .info-control --></div>
       <div class="button-area">
         <div class="open-close-btn" id="oc_about">
-          <h2>+</h2>
-          <h3>_</h3>
+        <section class="si-icons si-icons-default">
+          <span class="si-icon si-icon-plus" data-icon-name="plus"></span>
+        </section>
         </div>
         <!-- end #open-close-btn -->
         <p class="title-open" id="open-about">Open</p>
@@ -28,14 +29,16 @@
       <!-- end .button-area -->
       <header>Damon</header>
       <p class="info-title">Who I am and what I do</p>
-      <p class="content">Over the past 3 years I've developed a very diverse set of skills that have allowed me to progress in several creative areas.  From design to development to motion graphics and animation, I've worked to becomee a jack-of-all-trades.  I'm always looking to learn more and enjoy working with new ideas and technologies.  </p>
+      <p class="content">UX Generalist with an eclectic set of skills and methodologies that helps me gain a high-level view of a product, as well 
+      as a detailed perspective of all its components. 
+      <br><br>
+      I believe that details separate good from great. For collaboration, I prefer a mix of lean and agile methods of product development. I am a life-long learner who hardly considers any of this work 
+      because I love what I do.</p>
       <ul>
-        <li>Degree: BA of Journalism, Advertising - University of Oklahoma.</li>
+        <li>Degree: BA of Journalism, Advertising - University of Oklahoma</li>
         <li>Specialty: UI/UX Design</li>
-        <li>Experience: Web design, Front-end development, Motion graphics, 3D animation, Print</li>
       </ul>
-      <p class="content">Feel free to shoot me an e-mail about any projects I could be a part of - always looking for interesting opportunities.  I'd be happy to discuss details and send over a proposal. <br></p>
-        <h2 class="large-link" id="process">Thought Process</h2>
+        <h2 class="large-link" id="process">The Process</h2>
     </div>
     <!-- end .info-box --> 
     
