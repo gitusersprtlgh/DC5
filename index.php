@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<?php $form_path='formoid1/form.php'; require_once $form_path; ?><!DOCTYPE HTML>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -47,18 +47,53 @@ $.html5Loader({
     <div class="top_tab left_tab">
       <div class="triangle-topleft tri-large-left"></div> 
         <div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b" style="padding-left: .5em;">
-          <a href="#set-7" class="hi-icon glyphicon-heart ">Settings</a>
+         <span class="icon-user hi-icon"></span>
         </div>
     </div>
     <div class="top_tab right_tab">
       <div class="triangle-topright tri-large-right"></div> 
         <div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b opposite" style="padding-right: .5em;">
-          <a href="#set-7" class="hi-icon glyphicon-envelope ">Settings</a>
+          <span class="icon-mail hi-icon envelope"></span>
         </div>
     </div>
 
-    <div class="" style="position: absolute; top:0; left:0; width: 300px; height: 400px; border: 1px solid white; display: block;">
+    <div class="slidedown -lft">
+      <span id="user-close">X</span>
+      <h2>Damon Carlstrom</h2>
+      <div class="fltlft">
+        <img src="images/_svg/skill-dials2.svg" alt="">
+      </div>
+      <div style="float: left; height: 260px;">
+        <h3>Experience</h3>
+        <p>UX Specialist</p>
+        <p>Front-End Developer</p>
+        <p>Interactive Designer</p>
+        <p>Motion Graphics Designer</p>
+
+        <h3>Education</h3>
+        <p>BA Journalism - Advertising</p>
+        <p>University of Oklahoma 2010</p>
+
+        <h3>Languages</h3>
+        <p>English, Spanish</p>
+      </div>
+      <br>
+      <a href="#"><div class="btn" role="button">Resume</div></a>
+      <a href="#"><div class="btn" role="button">CV</div></a>
+      <div class="slidedown-icons">
+        <a href=""><span class="icon-facebook fltlft fs2"></span></a>
+        <a href=""><span class="icon-linkedin fltlft fs2"></span></a>
+        <a href=""><span class="icon-github fltlft fs2"></span></a>
+        <a href=""><span class="icon-behance fltlft fs2"></span></a>
+        <a href=""><span class="icon-vimeo fltlft fs2"></span></a>
+      </div>
     </div>
+
+     <div class="slidedown -rt">
+     <span id="mail-close">X</span>
+      <h2>Contact Me</h2>
+      {{Formoid}}
+     </div>
 
     <nav class="current">
       <div class="triangle-topright"></div>
@@ -66,9 +101,9 @@ $.html5Loader({
         <ul>
           <li class="menu" id="home-tab"><a href="#home">Home</a></li>
           <li class="menu" id="about-tab"><a href="#about" >About</a></li>
-          <li class="menu" id="interface-tab"><a href="#interface">Interface</a></li>
+          <li class="menu" id="interface-tab"><a href="#interface">Digital</a></li>
           <li class="menu" id="animation-tab"><a href="#animation">Animation</a></li>
-          <li class="menu" id="concepts-tab"><a href="#campaigns">Concepts</a></li>
+          <li class="menu" id="concepts-tab"><a href="#campaigns">UX</a></li>
           <li class="menu" id="print-tab"><a href="#print">Print</a></li>
           <li class="menu" id="art-tab"><a href="#art">Art</a></li>
         </ul>
@@ -109,9 +144,9 @@ $.html5Loader({
         <h3 id="nav_resume" class="x_nav"><a href="resume.html">Resume</a></h3>
         <h3 id="nav_contact" class="x_nav"><a href="contact.php">Contact</a></h3>
         <h3 id="nav_about" class="x_nav"><a href="#about" >About</a></h3>
-        <h3 id="nav_interface" class="x_nav"><a href="#interface">Interface</a></h3>
+        <h3 id="nav_interface" class="x_nav"><a href="#interface">Digital</a></h3>
         <h3 id="nav_animation" class="x_nav"><a href="#animation">Animation</a></h3>
-       <h3 id="nav_concepts" class="x_nav"><a href="#concepts">Concepts</a></h3>
+       <h3 id="nav_concepts" class="x_nav"><a href="#concepts">UX</a></h3>
         <h3 id="nav_print" class="x_nav"><a href="#print">Print</a></h3>
         <h3 id="nav_art" class="x_nav"><a href="#art">Art</a></h3>
       </div>
@@ -127,7 +162,7 @@ $.html5Loader({
 
     <?php include 'animation.php'; ?>
 
-    <?php include 'concepts.php'; ?>
+    <?php include 'ux.php'; ?>
 
     <?php include 'print.php'; ?>
 

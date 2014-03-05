@@ -45,6 +45,63 @@ function(){
 
 
 
+//User Info Slider
+    $(".left_tab span").click(function(){
+if ($(".left_tab .icon-user").is(':visible')) {
+    $(this).switchClass( "icon-user", "icon-close", 500, function(){
+        $(".-lft").animate({marginLeft: "0px"}, 700, "easeOutQuad");
+    });
+
+} else {
+    $(".left_tab .icon-close").switchClass( "icon-close", "icon-user", 500, function(){
+        $(".-lft").animate({marginLeft: "-310px"}, 700, "easeInQuad");
+    });
+
+    }
+});
+
+//Home Nav User
+$("#nav_resume a").click(function() {
+    $(".left_tab span").switchClass( "icon-user", "icon-close", 500, function(){
+        $(".-lft").animate({marginLeft: "0px"}, 700, "easeOutQuad");
+    });
+});
+
+$("#user-close").click(function() {
+    $(".left_tab span").switchClass( "icon-close", "icon-user", 500, function(){
+        $(".-lft").animate({marginLeft: "-310px"}, 700, "easeInQuad");
+    });
+});
+
+
+//Contact Slider
+    $(".right_tab span").click(function(){
+if ($(".right_tab .icon-mail").is(':visible')) {
+    $(this).switchClass( "icon-mail", "icon-close", 500, function(){
+        $(".-rt").animate({marginRight: "0px"}, 700, "easeOutQuad");
+    });
+
+} else {
+    $(".right_tab .icon-close").switchClass( "icon-close", "icon-mail", 500, function(){
+        $(".-rt").animate({marginRight: "-310px"}, 700, "easeInQuad");
+    });
+
+    }
+});
+
+//Home Nav Contact
+$("#nav_contact a").click(function() {
+    $(".right_tab span").switchClass( "icon-mail", "icon-close", 500, function(){
+        $(".-rt").animate({marginRight: "0px"}, 700, "easeOutQuad");
+    });
+});
+
+$("#mail-close").click(function() {
+    $(".right_tab span").switchClass( "icon-close", "icon-mail", 500, function(){
+        $(".-rt").animate({marginRight: "-310px"}, 700, "easeInQuad");
+    });
+});
+
 
 			
 //About box animation 

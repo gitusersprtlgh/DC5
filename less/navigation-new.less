@@ -8,6 +8,53 @@
 	
 }
 
+.slidedown {position: absolute; width: 310px; min-height: 440px; height: auto; background: rgba(9, 32, 36, .9); display: block;
+
+	&.-lft {top: 0; left: 0; margin-left: -310px;
+
+		h2 {text-align: right;}
+	}
+	&.-rt {top: 0; right: 0; margin-right: -310px;
+
+		h2 {text-align: left;}
+	}
+
+	* {font-weight: 100; letter-spacing: .05em;}
+
+	h2 {font-family: @main-font;
+		font-size: 1.4em;
+		color: @neon-light-green;
+		font-weight: 100;
+		letter-spacing: .05em;
+		padding: 20px 15px;
+		}
+
+	h3 {color: white; font-size: .9em; text-transform: uppercase; margin-bottom: 8px; margin-top: 15px;
+
+		&:first-child {margin-top: 0;}
+
+	}		
+
+	p {margin-bottom: 4px; color: white; font-size: .77em;}
+
+	.btn {border:1px solid white; padding: 10px; margin: .4em 1em; width: 35%; float: left; font-size: .7em; text-transform: uppercase; color: white; border-radius: 0px;
+
+		&:hover, &:active {border-color: @neon-light-green; transition: .5s linear all; color: @neon-light-green;}
+
+	}
+
+	.slidedown-icons {margin-left: auto; margin-right: auto; width: 250px;
+
+		span {
+			&:hover, &:active {color: @neon-light-green; transition: .5s linear color}
+		}
+	}
+}
+
+#user-close {position: absolute; top: 22px; left: 35px; font-size: 20px; color: white; cursor: pointer;}
+#mail-close {position: absolute; top: 22px; right: 35px; font-size: 20px; color: white; cursor: pointer;}
+
+
 .triangle-topright {
 	width: 0;
 	height: 0;
@@ -24,7 +71,7 @@
 	border-top: 44px solid rgba(0, 44, 52, .9);
 	border-right: 30px solid transparent;
 	position: absolute;
-	margin-left: 540px;
+	margin-left: 475px;
 	margin-top: -15px;
 }
 
@@ -46,7 +93,7 @@
 	-moz-border-radius-bottomleft: 25px 9px;
 	-webkit-border-bottom-left-radius: 25px 9px;
 }
-.current { margin: 0px auto; width: 540px; padding-top: 14px; background: rgba(0, 44, 52, .9);  z-index: 999; margin-top: -48px;
+.current { margin: 0px auto; width: 475px; padding-top: 14px; background: rgba(0, 44, 52, .9);  z-index: 999; position: relative; margin-top: -48px;
 	
 	border-bottom-left-radius: 25px 9px;
 	border-bottom-right-radius: 25px 9px;
@@ -55,7 +102,7 @@
 	-webkit-border-bottom-right-radius: 25px 9px;
 	-webkit-border-bottom-left-radius: 25px 9px;
 
-	ul {padding: 0 15px 15px 20px;}
+	ul {padding: 0 15px 15px 15px;}
 	a:link{ font-family: 'Lato' , sans-serif; letter-spacing: 1px; color: #9f9e9e; text-decoration: none; margin-left: 10px; margin-right: 10px;
 		z-index: 999; font-weight: 300; -webkit-transition: all .3s linear; -moz-transition: all .3s linear; transition: all .3s linear; }
 	a:visited{font-family: 'Lato' , sans-serif;letter-spacing: 1px; color: #9f9e9e; text-decoration: underline; position: relative; z-index: 999;}
@@ -91,8 +138,8 @@
 
 .active {
 	background: black;
-	padding-top: 13px;
-	padding-bottom: 14px;
+	padding-top: 14px;
+	padding-bottom: 17px;
 	color: white;
 	}
 
@@ -159,7 +206,6 @@ color: #9f9e9e;
 
 .hi-icon {
 	display: inline-block;
-	font-size: 0px;
 	cursor: pointer;
 	margin: 15px 10px;
 	width: 43px;
@@ -184,10 +230,10 @@ color: #9f9e9e;
 }
 
 .hi-icon:before {
-	font-family: 'Glyphicons Halflings';
+	font-family: 'icomoon';
 	speak: none;
-	font-size: 24px;
-	line-height: 45px;
+	/*font-size: 24px;*/
+	/*line-height: 41px;*/
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
@@ -196,6 +242,8 @@ color: #9f9e9e;
 	-webkit-font-smoothing: antialiased;
 	color: ;
 }
+
+
 
 
 /* Effect 7 */

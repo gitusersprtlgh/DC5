@@ -3,11 +3,15 @@
    <trackList>
       <track>
          <title>Third Rail Creative</title>
-         
          <location>http://www.youtube.com/watch?v=u8dPg_lAfbc</location>
          <!--<location>http://www.youtube.com/watch?v=Bb5pbpSzVW0</location> -->
-		 <!--<location>https://s3.amazonaws.com/dc_videos/3RC_Promo_720.mp4</location>-->
+       <!--<location>https://s3.amazonaws.com/dc_videos/3RC_Promo_720.mp4</location>-->
          <image>images/3rc_snapshot.jpg</image>
+      </track>
+      <track>
+         <title>Browder Capital</title>
+         <location>http://www.youtube.com/watch?v=2XbRVaPm8Xc</location>
+         <image>images/bc-snapshot.jpg</image>
       </track>
       <track>
          <title>Dead Space Spores</title>
