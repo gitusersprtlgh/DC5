@@ -1,4 +1,4 @@
-<div id="animation">
+<section id="animation">
     
     <!-- modal-ani-2 -->
     <div id="jungle-bg"></div>
@@ -7,7 +7,7 @@
     </div>
     <div id="animation-box">
       <header>Animation</header>
-      <p class="info-title">After Effects, Flash, &#38; Cinema4D </p>
+      <p class="info-title">2D / 3D Animation &#38; Compositing </p>
     </div>
     <!-- end #animation --> 
-  </div>
+  </section>

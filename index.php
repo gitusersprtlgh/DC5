@@ -1,6 +1,9 @@
 <?php $form_path='formoid1/form.php'; require_once $form_path; ?><!DOCTYPE HTML>
 <html>
 <head>
+<!--[if lt IE 9]>
+  <link rel="stylesheet" type="text/css" href="ie8-and-down.css" />
+<![endif]-->
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>DC Labs - Damon Carlstrom Creative Portfolio</title>
 <meta property="og:title" content="Damon Carlstrom" />
@@ -8,11 +11,13 @@
 <meta property="og:url" content="http://damon9.com" />
 <meta property="og:image" content="http://damon9.com/images/dc-logo.jpg" />
 <meta property="og:site_name" content="DC Labs" />
-<meta property="og:description" content="Damon Carlstrom - Creative portfolio of web/UI design, front-end development, motion graphics, 3d animation, logos, and other graphic design." />
+<meta property="og:description" content="Damon Carlstrom - Creative portfolio of UI/UX design, Front-End Development, 2D and 3D motion graphics and animation, and other graphic design." />
 
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" href="css/bootstrap.css"  type="text/css">
 <link rel="stylesheet" href="templates/default/css/osmplayer_default.css" type="text/css">
 <link rel="stylesheet" href="jquery-ui/mint-choc/jquery-ui-1.8.18.custom.css" type="text/css">
+
 
 <style>.edgeLoad-pw_button{display:none}</style>
 <script src="js/jquery-latest.min.js" type="text/javascript"></script>
@@ -24,7 +29,7 @@
 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script> 
 <script type="text/javascript" charset="utf-8" src="Power4_edgePreload.js"></script>
 <script type="text/javascript" src="js/snap.svg-min.js"></script>
-<script type="text/javascript" src="js/modernizr.custom.4.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.5.js"></script>
 <script type="text/javascript">
  $('document').ready( function ($){
 
@@ -96,7 +101,7 @@ $.html5Loader({
      </div>
 
     <nav class="current">
-      <div class="triangle-topright"></div>
+      <div id="triangle-topright" class="triangle-topright"></div>
       <div id="triangle-topleft" class="triangle-topleft"></div>
         <ul>
           <li class="menu" id="home-tab"><a href="#home">Home</a></li>
@@ -162,7 +167,7 @@ $.html5Loader({
 
     <?php include 'animation.php'; ?>
 
-    <?php include 'ux.php'; ?>
+    <?php include 'ux1.php'; ?>
 
     <?php include 'print.php'; ?>
 
@@ -173,7 +178,6 @@ $.html5Loader({
 <!-- end outer container --> 
 
 <script type="text/javascript" src="js/jquery.parallax-1.1.js"></script> 
-<script type="text/javascript" src="js/jquery.ad-gallery.js"></script> 
 <script src="js/jquery.scrollTo-1.4.3.1.min.js"></script> 
 <script src="js/waypoints.min.js"></script> 
 <script type="text/javascript" src="templates/default/js/osmplayer.teaser.default.js"></script> 
@@ -183,7 +187,11 @@ $.html5Loader({
 <script type="text/javascript" src="templates/default/js/osmplayer.playlist.default.js"></script> 
 <script type="text/javascript" src="js/svgicons-config.js"></script>
 <script type="text/javascript" src="js/svgicons.js"></script>
-<script type="text/javascript" src="js/custom-animations.js"></script>
+<script type="text/javascript" src="js/classie.js"></script>
+<script type="text/javascript" src="js/demo1.js"></script>
+<script type="text/javascript" src="js/html5gallery.js"></script>
+<script type="text/javascript" src="js/responsive.min.js"></script>
+<script type="text/javascript" src="js/custom-animations5.js"></script>
 
 
 <script type="text/javascript" >
@@ -218,6 +226,8 @@ var _gaq = _gaq || [];
         new svgIcon( document.querySelector( '.si-icons-easing .si-icon-plus' ), svgIconConfig, { easing : mina.backin } );
       
       })();
+
+   
     </script>
 
 </body>

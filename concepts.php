@@ -1,4 +1,4 @@
-<div id="concepts">
+<section id="concepts">
     <div class="modal" id="modal-concepts-1">
       <div class ="inner-wrap">
         <div class="gallery-side">
@@ -151,5 +151,5 @@
       <!-- end .info-box --> 
     </div>
     <!-- end #ink --> 
-</div>
+</section>
   <!-- end #concepts -->

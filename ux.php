@@ -105,7 +105,7 @@
         </div>
         <!-- end .button-area -->
         <header>UX</header>
-        <p class="info-title">User-Experience, ID, IA</p>
+        <p class="info-title">User-Experience</p>
         <div class="inner-content" id="concepts-content">
           <div class="overlay_text overlay_left_right" id="concepts-1"> <img class="work-concepts" src="images/box-thumb-ux-responsive.png" alt="">
             <div class="overlay_text_mask black_mask">

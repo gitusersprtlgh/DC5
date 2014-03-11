@@ -1,32 +1,48 @@
-// Core variables and mixins
-@import "variables.less";
-@import "mixins.less";
-
 // Reset
+// ----------------------
 @import "normalize.less";
 
 // Core CSS
+// ----------------------
 @import "grid.less";
 @import "buttons.less";
 
+// Core variables and mixins
+// --------------------------
+@import "variables.less";
+@import "mixins.less";
+
+@import "base.less";
+
 // Components
-@import "form.less";
+// ---------------------
 @import "component-animations.less";
 @import "glyphicons.less";
-@import "base.less";
 @import "navigation-new.less";
-@import "overlay-text.less";
+@import "thumbnail-overlay.less";
 @import "snap-svg.less";
+@import "sky-tabs.less";
+@import "overlay-gallery-scale.less";
+@import "html5gallery.less";
+
 
 // Components w/ JavaScript
-@import "tooltip.less";
-@import "modal-styles.less";
-@import "ad-gallery.less";
+// ------------------------
 
-//Main styles for 1024px and above
+
+// Main styles for 1024px and above
+// -------------------------------
 @media screen and (min-width: 1024px) {
 
 @import "1024up.less";
+
+}
+
+// Large Nav Styling
+// --------------------------------
+@media screen and (min-width: 1100px) {
+
+@import "1100up.less";
 
 }
 

@@ -1,4 +1,4 @@
-<div id="print">
+<section id="print">
   <div class="modal" id="modal-print-1">
       <div class ="inner-wrap">
         <div class="gallery-side">
@@ -116,5 +116,5 @@
       <!-- end .info-box --> 
     </div>
     <!-- end #ink --> 
-  </div>
+</section>
   <!-- end #print -->

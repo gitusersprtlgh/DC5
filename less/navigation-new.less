@@ -10,11 +10,11 @@
 
 .slidedown {position: absolute; width: 310px; min-height: 440px; height: auto; background: rgba(9, 32, 36, .9); display: block;
 
-	&.-lft {top: 0; left: 0; margin-left: -310px;
+	&.-lft {top: 0; left: 0; margin-left: -310px; opacity: 0;
 
 		h2 {text-align: right;}
 	}
-	&.-rt {top: 0; right: 0; margin-right: -310px;
+	&.-rt {top: 0; right: 0; margin-right: -310px; opacity: 0;
 
 		h2 {text-align: left;}
 	}
@@ -75,16 +75,19 @@
 	margin-top: -15px;
 }
 
-.tri-large-left {margin-left: 75px; border-top: 83px solid rgba(0, 44, 52, .9);}
-.tri-large-right {margin-riht: 75px; border-top: 83px solid rgba(0, 44, 52, .9);}
+#triangle-topleft, #triangle-topright {display: none;}
 
-.top_tab {background: rgba(0, 44, 52, .9);  z-index: 999; width: 75px; height: 75px; position: fixed;}
+.tri-large-left {margin-left: 75px; border-top: 83px solid rgb(0, 44, 52);}
+.tri-large-right {margin-right: 75px; border-top: 83px solid rgb(0, 44, 52);}
+
+.top_tab {background: rgb(0, 44, 52);  z-index: 999; width: 75px; height: 75px; position: fixed;}
 
 .left_tab{top: 0; left: 0; margin-left: -100px; margin-top: -100px;
 
 	border-bottom-right-radius: 25px 9px;
 	-moz-border-radius-bottomright: 25px 9px;
 	-webkit-border-bottom-right-radius: 25px 9px;
+	z-index: 999;
 }
 
 .right_tab{top: 0; right: 0; margin-right: -100px; margin-top: -100px;
@@ -92,17 +95,12 @@
 	border-bottom-left-radius: 25px 9px;
 	-moz-border-radius-bottomleft: 25px 9px;
 	-webkit-border-bottom-left-radius: 25px 9px;
+	z-index:999;
 }
-.current { margin: 0px auto; width: 475px; padding-top: 14px; background: rgba(0, 44, 52, .9);  z-index: 999; position: relative; margin-top: -48px;
+.current { margin: 0px auto; width: 100%; padding-top: 14px; background: rgba(0, 44, 52, .9);  z-index: 800; position: relative; margin-top: -48px;
 	
-	border-bottom-left-radius: 25px 9px;
-	border-bottom-right-radius: 25px 9px;
-	-moz-border-radius-bottomright: 25px 9px;
-	-moz-border-radius-bottomleft: 25px 9px;
-	-webkit-border-bottom-right-radius: 25px 9px;
-	-webkit-border-bottom-left-radius: 25px 9px;
 
-	ul {padding: 0 15px 15px 15px;}
+	ul {padding: 0 15px 15px 15px; width: 445px; margin: 0 auto;}
 	a:link{ font-family: 'Lato' , sans-serif; letter-spacing: 1px; color: #9f9e9e; text-decoration: none; margin-left: 10px; margin-right: 10px;
 		z-index: 999; font-weight: 300; -webkit-transition: all .3s linear; -moz-transition: all .3s linear; transition: all .3s linear; }
 	a:visited{font-family: 'Lato' , sans-serif;letter-spacing: 1px; color: #9f9e9e; text-decoration: underline; position: relative; z-index: 999;}

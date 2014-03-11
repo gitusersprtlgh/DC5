@@ -34,7 +34,7 @@ a {
 /* ~~ This is the layout information. ~~ */
 
 .content {
-	padding: 0 15px; line-height: 1.6em;
+	
 }
 /* ~~ This grouped selector gives the lists in the .content area space ~~ */
 .content ul, .content ol,  {
@@ -171,10 +171,10 @@ h3#nav_art {
 
 /****************  Info box  **************/
 .info-box {
-	background-color: #000;
+	background: url(../images/transparent-black.png) 0 0 repeat;
 	width: 350px;
 	height: 100px;
-	opacity: .85;
+	/*opacity: .85;*/
 	position: absolute;
 	z-index: 650;
 	overflow: hidden;
@@ -214,7 +214,14 @@ h3#nav_art {
 	cursor: pointer;
 }	
 
-.inner-content {padding: 15px;}
+.inner-content {padding: 15px; 
+
+	p{font-family: @main-font; font-size: 14px; font-weight: 100; color: white; letter-spacing: .05em;line-height: 1.7em; color: white; }
+}
+
+.pd-top0 {padding-top: 0;
+	p {letter-spacing: .1em; padding:0;}
+}
 
 .button-area {float: right; width: 130px; height: 50px;  position: relative; padding: 10px 10px 0 0;
 
@@ -261,7 +268,7 @@ p.info-title {color: #ececec; font-family: @main-font; font-size: 16px; margin-t
  ***************************/
 
  #about-box {
-	background-color: #000;
+	
 	position: absolute;
 	top: 500px;
 	right: 7%;
@@ -270,7 +277,7 @@ p.info-title {color: #ececec; font-family: @main-font; font-size: 16px; margin-t
 	
 	}
 #interface-box {
-	background-color: #000;
+	
 	position: absolute;
 	top: 450px;
 	right: 7%;
@@ -280,7 +287,7 @@ p.info-title {color: #ececec; font-family: @main-font; font-size: 16px; margin-t
 	}
 	
 #animation-box {
-	background-color: #000;
+	background: url(../images/transparent-black.png) 0 0 repeat;
 	position: absolute;
 	bottom: 200px;
 	left: 2%;
@@ -293,7 +300,7 @@ p.info-title {color: #ececec; font-family: @main-font; font-size: 16px; margin-t
 	}
 
 #print-box {
-	background-color: #000;
+	
 	position: absolute;
 	bottom: 200px;
 	left: 6%;
@@ -303,7 +310,7 @@ p.info-title {color: #ececec; font-family: @main-font; font-size: 16px; margin-t
 	}
 	
 #concepts-box {
-	background-color: #000;
+	
 	position: absolute;
 	bottom: 200px;
 	right: 7%;
@@ -313,7 +320,7 @@ p.info-title {color: #ececec; font-family: @main-font; font-size: 16px; margin-t
 	}
 	
 #art-box {
-	background-color: #000;
+
 	position: absolute;
 	bottom: 200px;
 	right: 7%;
@@ -405,17 +412,17 @@ Begin Interface Section
 	
 #control-panel {
 	position: relative;
-	width: 996px;
-	height: 348px;
+	width: 1014px;
+	height: 158px;
 	margin: 0 auto;	
 }
 
 #panel-sliver {
 	position: relative;
 	width: 100%;
-	height: 348px;
+	height: 158px;
 	background: url(../images/control-panel-sliver.png) 50% 100% repeat-x;
-	top: 450px;
+	top: 600px;
 }
 /************************ 
 Begin Animation Section
@@ -509,8 +516,7 @@ z-index: 500;
 }
 
 #gears{
-	background-color: ;
-	background: url(../images/cogs.png) 50% 0% no-repeat fixed;
+	background: url(../images/grid-paper.png) 0 0 repeat;
 	height: 1050px;
 	width: 100%;
 	}

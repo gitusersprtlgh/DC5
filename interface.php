@@ -1,4 +1,4 @@
- <div id="interface">
+ <section id="interface">
     <div class="modal" id="modal-ui-1">
       <div class ="inner-wrap">
         <div class="gallery-side">
@@ -134,12 +134,12 @@
         </div>
         <!-- end .button-area -->
         <header>Digital</header>
-        <p class="info-title">Design/Development, UX/UI </p>
+        <p class="info-title">Design / Development</p>
         <div class="inner-content" id="interface-content">
           <div class="overlay_text overlay_left_right" id="ui-1"> <img class="work-interface"  src="images/box-thumb-ui.jpg" alt="ui design and development">
             <div class="overlay_text_mask black_mask">
-              <h2>Design/Develop</h2>
-              <p>Web, Mobile,  Front-End</p>
+              <h2>Design / Develop</h2>
+              <p>Web, UI, Front-End</p>
             </div>
           </div>
           <div class="overlay_text overlay_left_right" id="ui-3"> <img src="images/box-thumb-responsive.jpg" alt="Ui concepts">
@@ -161,5 +161,5 @@
       
     </div>
     <!-- end #space --> 
-  </div>
+</section>
   <!-- end #interface -->
