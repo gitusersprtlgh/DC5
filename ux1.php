@@ -1,5 +1,5 @@
 <section id="concepts">
- <div class="overlay overlay-scale overlay-ux1">
+ <div class="overlay overlay-scale overlay-ux1 overlay-concepts-1">
     <button type="button" class="overlay-close">Close</button>
     <div class="sky-tabs sky-tabs-pos-top-left sky-tabs-response-to-switcher">
       <input type="radio" name="sky-tabs" checked id="sky-tab1" class="sky-tab-content-1">
@@ -16,6 +16,10 @@
       <?php include 'gallery-ux1.php'; ?>
       
     </div>
+  </div>
+  <div class = "overlay overlay-scale overlay-ux1 overlay-concepts-2">
+  <button type="button" class="overlay-close">Close</button>
+  	TESTING OVERLAY 2
   </div>
     <!-- modal-concept-2 -->
     <div id="gears">
@@ -40,14 +44,14 @@
 
 
         <div class="inner-content" id="concepts-content">
-          <div id="trigger-overlay" type="button" class="overlay_text overlay_left_right" id="concepts-1"> 
+          <div type="button" class="trigger-overlay overlay_text overlay_left_right" id="overlay-concepts-1"> 
           <img class="work-concepts" src="images/box-thumb-ux-responsive.png" alt="">
             <div class="overlay_text_mask black_mask">
               <h2>Responsive</h2>
               <p>Multi-Screen Layout</p>
             </div>
           </div>  
-          <div class="overlay_text overlay_left_right" id="concepts-2"> <img src="images/box-thumb-ux-fixed.png" alt="">
+          <div class="overlay_text overlay_left_right trigger-overlay" id="overlay-concepts-2"> <img src="images/box-thumb-ux-fixed.png" alt="">
             <div class="overlay_text_mask black_mask">
               <h2>Fixed Width</h2>
               <p>Single Browser Layout</p>
